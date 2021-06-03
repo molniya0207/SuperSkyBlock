@@ -1,6 +1,5 @@
 package com.stopper.ssb.common.blocks;
 
-import com.stopper.ssb.SuperSkyBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.tileentity.TileEntity;

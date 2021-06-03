@@ -1,6 +1,9 @@
 package com.stopper.ssb.common.entities;
 
-import com.stopper.ssb.common.goals.*;
+import com.stopper.ssb.common.goals.IgniteTargetGoal;
+import com.stopper.ssb.common.goals.MiniExplosionGoal;
+import com.stopper.ssb.common.goals.MysticalAttackTargetGoal;
+import com.stopper.ssb.common.goals.TeleportTargetGoal;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.IRangedAttackMob;
 import net.minecraft.entity.LivingEntity;

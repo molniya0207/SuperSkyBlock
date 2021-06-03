@@ -1,6 +1,5 @@
 package com.stopper.ssb.common.items;
 
-import com.stopper.ssb.SuperSkyBlock;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.item.ItemUseContext;

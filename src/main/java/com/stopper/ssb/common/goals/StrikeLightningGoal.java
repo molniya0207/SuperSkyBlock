@@ -1,7 +1,5 @@
 package com.stopper.ssb.common.goals;
 
-import com.stopper.ssb.SuperSkyBlock;
-import com.stopper.ssb.common.entities.ClownBoss;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.ai.goal.Goal;

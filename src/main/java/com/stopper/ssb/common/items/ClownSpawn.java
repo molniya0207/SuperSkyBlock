@@ -1,6 +1,5 @@
 package com.stopper.ssb.common.items;
 
-import net.minecraft.client.world.ClientWorld;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;

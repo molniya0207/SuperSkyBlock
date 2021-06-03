@@ -1,18 +1,14 @@
 package com.stopper.ssb.common.blocks;
 
 import com.stopper.ssb.SuperSkyBlock;
-import net.minecraft.block.Block;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.tileentity.ITickableTileEntity;
 import net.minecraft.util.Hand;
-import net.minecraft.util.registry.Registry;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class CustomGeneratorTile extends BaseGeneratorTile implements ITickableTileEntity {
     public CustomGeneratorTile() {

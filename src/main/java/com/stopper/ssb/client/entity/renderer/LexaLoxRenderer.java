@@ -1,8 +1,6 @@
 package com.stopper.ssb.client.entity.renderer;
 
 import com.stopper.ssb.client.entity.model.LexaLoxModel;
-import com.stopper.ssb.client.entity.model.twest;
-import com.stopper.ssb.common.entities.ClownBoss;
 import com.stopper.ssb.common.entities.LexaLox;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
 import net.minecraft.client.renderer.entity.MobRenderer;

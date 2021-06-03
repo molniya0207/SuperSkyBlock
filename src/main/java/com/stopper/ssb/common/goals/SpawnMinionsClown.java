@@ -4,8 +4,6 @@ import com.stopper.ssb.SuperSkyBlock;
 import com.stopper.ssb.common.entities.ClownBoss;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.ai.goal.Goal;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.math.BlockPos;
 
 public class SpawnMinionsClown extends Goal {
     ClownBoss boss;

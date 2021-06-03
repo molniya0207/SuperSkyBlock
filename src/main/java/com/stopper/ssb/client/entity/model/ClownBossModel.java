@@ -6,10 +6,8 @@ package com.stopper.ssb.client.entity.model;// Made with Blockbench 3.8.4
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.stopper.ssb.common.entities.ClownBoss;
-import com.stopper.ssb.common.entities.LexaLox;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
-import net.minecraft.entity.Entity;
 
 public class ClownBossModel extends EntityModel<ClownBoss> {
 	private final ModelRenderer bb_main;

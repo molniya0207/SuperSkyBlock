@@ -6,7 +6,6 @@ package com.stopper.ssb.client.entity.model;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
-import com.stopper.ssb.common.entities.ClownBoss;
 import com.stopper.ssb.common.entities.LexaLox;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;

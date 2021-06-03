@@ -2,7 +2,6 @@ package com.stopper.ssb.common.items;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.world.World;
 
 public class FireDust extends BaseItem {

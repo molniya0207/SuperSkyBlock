@@ -4,9 +4,7 @@ import com.stopper.ssb.SuperSkyBlock;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.tileentity.ITickableTileEntity;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.Hand;
 
 public class ExchangerBlockTile extends TileEntity {
