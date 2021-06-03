@@ -1,6 +1,6 @@
 package com.stopper.ssb.common.blocks;
 
-import com.stopper.ssb.SuperSkyBlock;
+import com.stopper.ssb.common.utils.Registration;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.tileentity.ITickableTileEntity;
@@ -8,7 +8,7 @@ import net.minecraft.tileentity.TileEntity;
 
 public class StationaryDiamondOreGeneratorTile extends TileEntity implements ITickableTileEntity {
     public StationaryDiamondOreGeneratorTile() {
-        super(SuperSkyBlock.STATIONARY_DIAMOND_ORE_GENERATOR_TILE.get());
+        super(Registration.STATIONARY_DIAMOND_ORE_GENERATOR_TILE.get());
     }
 
     @Override

@@ -1,6 +1,6 @@
 package com.stopper.ssb.common.blocks;
 
-import com.stopper.ssb.SuperSkyBlock;
+import com.stopper.ssb.common.utils.Registration;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -10,7 +10,7 @@ import net.minecraft.util.Hand;
 
 public class Molecular1Tile extends TileEntity {
     public Molecular1Tile() {
-        super(SuperSkyBlock.MOLECULAR_I_TILE.get());
+        super(Registration.MOLECULAR_I_TILE.get());
     }
 
     public void onUse(PlayerEntity playerIn, Hand handIn) {

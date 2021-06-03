@@ -1,6 +1,5 @@
 package com.stopper.ssb.common.blocks;
 
-import com.stopper.ssb.common.utils.Registration;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.tileentity.TileEntity;
@@ -13,28 +12,23 @@ import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
 
-public class BaseGenerator extends BaseBlock {
-    public BaseGenerator(Properties props) {
+public class Custom2Generator extends BaseGenerator {
+    public Custom2Generator(Properties props) {
         super(props);
-    }
-
-    @Override
-    public boolean hasTileEntity(BlockState state) {
-        return true;
     }
 
     @Nullable
     @Override
     public TileEntity createTileEntity(BlockState state, IBlockReader world) {
-        return new BaseGeneratorTile(Registration.DUST_GENERATOR_TILE.get());
+        return new Custom2GeneratorTile();
     }
 
     @Override
     public ActionResultType use(BlockState state, World worldIn, BlockPos pos, PlayerEntity playerIn, Hand handIn, BlockRayTraceResult rtRes) {
         if (!worldIn.isClientSide) {
             TileEntity tileEntity = worldIn.getBlockEntity(pos);
-            if (tileEntity instanceof BaseGeneratorTile) {
-                ((BaseGeneratorTile) tileEntity).onUse(playerIn, handIn);
+            if (tileEntity instanceof Custom2GeneratorTile) {
+                ((Custom2GeneratorTile) tileEntity).onUse(playerIn, handIn);
             }
         }
         return ActionResultType.SUCCESS;

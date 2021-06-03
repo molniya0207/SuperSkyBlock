@@ -1,6 +1,7 @@
 package com.stopper.ssb.common.entities;
 
-import com.stopper.ssb.SuperSkyBlock;
+import com.stopper.ssb.common.utils.Registration;
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.AgeableEntity;
 import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.EntityType;
@@ -51,7 +52,16 @@ public class ClownTrader extends AbstractVillagerEntity {
         }
         ArrayList<MerchantOffer> offerList = new ArrayList<>();
         // IS 1 | IS 2 -> IS 3 (RESULT) || USES MAXUSES XP MULT DEMAND
-        offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.GOLDENCOIN_ITEM.get(), 2), createItemStackFromItem(SuperSkyBlock.SILVERCOIN_ITEM.get(), 7), createItemStackFromItem(SuperSkyBlock.HANGJAW_ITEM.get(), 1), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Registration.GOLDENCOIN_ITEM.get(), 2), createItemStackFromItem(Registration.SILVERCOIN_ITEM.get(), 7), createItemStackFromItem(Registration.HANGJAW_ITEM.get(), 1), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.WATER_BUCKET, 1), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.BONE_BLOCK, 2), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.GRASS_BLOCK, 4), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.REDSTONE, 32), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.MELON_SLICE, 32), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Registration.GOLDENCOIN_ITEM.get(), 16), createItemStackFromItem(Items.DIAMOND_PICKAXE, 1), createItemStackWithEnchantmentsEF(Items.DIAMOND_PICKAXE, 1), 0, 3, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Registration.GOLDENCOIN_ITEM.get(), 64), ItemStack.EMPTY, createItemStackFromItem(Registration.ULTIMATE_HANGKATANA_ITEM.get(), 1), 0, 3, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Items.WHEAT, 32), ItemStack.EMPTY, createItemStackFromItem(Registration.GOLDENCOIN_ITEM.get(), 1), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Items.MELON_SLICE, 64), ItemStack.EMPTY, createItemStackFromItem(Registration.GOLDENCOIN_ITEM.get(), 1), 0, 99999, 3, 0, 0));
         for (int i = 0; i < offerList.size(); i++) {
             MerchantOffer merchantoffer = offerList.get(i);
             if (merchantoffer != null) {
@@ -62,6 +72,12 @@ public class ClownTrader extends AbstractVillagerEntity {
 
     public ItemStack createItemStackFromItem(Item item, int count) {
         return new ItemStack(item, count);
+    }
+    public ItemStack createItemStackWithEnchantmentsEF(Item item, int count) {
+        ItemStack itemStack = new ItemStack(item, count);
+        itemStack.enchant(Enchantments.BLOCK_EFFICIENCY, 3);
+        itemStack.enchant(Enchantments.BLOCK_FORTUNE, 2);
+        return itemStack;
     }
 
     @Nullable

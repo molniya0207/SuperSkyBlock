@@ -1,7 +1,7 @@
 package com.stopper.ssb.common.goals;
 
-import com.stopper.ssb.SuperSkyBlock;
 import com.stopper.ssb.common.entities.ClownBoss;
+import com.stopper.ssb.common.utils.Registration;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.ai.goal.Goal;
 
@@ -24,7 +24,7 @@ public class SpawnMinionsClown extends Goal {
 
     public void start() {
         if (this.boss.level.isClientSide) return;
-        SuperSkyBlock.LEXALOX_ENTITY.get().spawn(this.boss.level.getServer().overworld(), null, null, this.boss.blockPosition(), SpawnReason.TRIGGERED, true, true);
+        Registration.LEXALOX_ENTITY.get().spawn(this.boss.level.getServer().overworld(), null, null, this.boss.blockPosition(), SpawnReason.TRIGGERED, true, true);
     }
 
     public void tick() {}

@@ -1,0 +1,16 @@
+{
+  "name": "Diamond Anvil",
+  "icon": "ssb:diamondanvilitem",
+  "category": "ssb:machines",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:diamondanvilitem",
+      "text": "Converts some specific items.$(br2)Recipes:$(br)$(#0f0)$(l:generators/customgen)Custom Generator$() -> $(#0f0)$(l:generators/custom2gen)Custom Generator Tier 2$()"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:diamondanvilrecipe"
+    }
+  ]
+}

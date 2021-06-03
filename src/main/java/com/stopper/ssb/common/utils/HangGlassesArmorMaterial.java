@@ -1,6 +1,5 @@
 package com.stopper.ssb.common.utils;
 
-import com.stopper.ssb.SuperSkyBlock;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
@@ -32,7 +31,7 @@ public class HangGlassesArmorMaterial implements IArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.of(SuperSkyBlock.BOSSESSENCE2_ITEM.get());
+        return Ingredient.of(Registration.BOSSESSENCE2_ITEM.get());
     }
 
     @Override

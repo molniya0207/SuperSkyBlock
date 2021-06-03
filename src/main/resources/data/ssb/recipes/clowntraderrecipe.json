@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ssb:bossessence1"
+    }
+  },
+  "result": {
+    "item": "ssb:clowntradersummon",
+    "count": 1
+  }
+}

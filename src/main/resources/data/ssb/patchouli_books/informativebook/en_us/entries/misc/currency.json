@@ -14,10 +14,10 @@
       "text": "Smallest currency value (like a cent)"
     },
     {
-      "type": "spotlight",
-      "title": "Shopkeeper",
-      "item": "ssb:silvercoin",
-      "text": "WIP$(br)Gives you ability to trade with your coins"
+      "type": "crafting",
+      "title": "Clown Trader",
+      "recipe": "ssb:clowntraderrecipe",
+      "text": "Gives you ability to buy and sell using coins."
     },
     {
       "type": "crafting",

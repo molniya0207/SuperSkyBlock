@@ -1,0 +1,12 @@
+{
+  "name": "Ultimate Hang Katana",
+  "icon": "ssb:ultimatehangkatana",
+  "category": "ssb:weapons",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:ultimatehangkatana",
+      "text": "Stats:$(br)Damage: 27$(br)Speed: 1$(br)Can be bought from $(#0f0)$(l:misc/currency)Clown Trader$() for 64 $(#0f0)$(l:misc/currency)Golden Coins$()."
+    }
+  ]
+}
