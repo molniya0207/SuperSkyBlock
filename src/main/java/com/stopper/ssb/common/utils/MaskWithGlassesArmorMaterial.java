@@ -3,7 +3,6 @@ package com.stopper.ssb.common.utils;
 import com.stopper.ssb.SuperSkyBlock;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
-import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.SoundEvents;
