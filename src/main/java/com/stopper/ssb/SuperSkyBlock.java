@@ -54,6 +54,7 @@ public class SuperSkyBlock
 
     public static AbstractBlock.Properties StandartBlockProperties = AbstractBlock.Properties.of(Material.METAL).harvestLevel(2).harvestTool(ToolType.PICKAXE).strength(4f);
 
+    // lox
     public static final String MODID = "ssb";
     private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
     //public static final RegistryObject<Block> BASE_GENERATOR_BLOCK = BLOCKS.register("basegenblock", () -> new BaseGenerator());
