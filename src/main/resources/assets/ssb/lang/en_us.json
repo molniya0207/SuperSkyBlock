@@ -42,7 +42,7 @@
   "message.ssb.customgen": "Generates some common materials.",
   "message.ssb.moleculari": "One-way item converter.",
   "message.ssb.molecularii": "Two-way item converter.",
-  "message.ssb.moleculariii": "Two-way item converter.",
+  "message.ssb.moleculariii": "Two-way item converter. Requires energy.",
   "message.ssb.informativeempty": "Used to create Informati:ve unknown icons.",
   "message.ssb.clownmask_head": "Gives speed.",
   "message.ssb.clownsign": "Why he doesn't use it?",
