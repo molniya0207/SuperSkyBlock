@@ -127,8 +127,6 @@ public class SuperSkyBlock
     public static final RegistryObject<Item> STATIONARY_DIAMOND_ORE_GENERATOR_ITEM = ITEMS.register("stationarydiamondoregeneratoritem", () -> new BaseBlockItem("item.ssb.stationarydiamondoregeneratoritem", "message.ssb.stationarydiamondoregeneratoritem", STATIONARY_DIAMOND_ORE_GENERATOR_BLOCK.get(), new Item.Properties().tab(CreativeTab)));
     //public static final RegistryObject<Item> BOSSPAWNEGG_ITEM = ITEMS.register("bossspawnegg", () -> new SpawnEggItem(TEST_ENTITY.get(), 0xeb4034, 0x34e2eb, new Item.Properties().tab(CreativeTab)));
 
-    // green purple fire rainbow
-
     public SuperSkyBlock() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
