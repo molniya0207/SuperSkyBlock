@@ -1,0 +1,6 @@
+{
+  "parent": "ssb:block/template_diamondanvil",
+  "textures": {
+    "top": "ssb:block/diamondanvil_top"
+  }
+}

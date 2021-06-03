@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ssb:block/diamondanvil" },
+    "facing=south": { "model": "ssb:block/diamondanvil", "y": 180 },
+    "facing=west":  { "model": "ssb:block/diamondanvil", "y": 270 },
+    "facing=east":  { "model": "ssb:block/diamondanvil", "y": 90 }
+  }
+}

@@ -14,6 +14,8 @@ import com.stopper.ssb.common.utils.*;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.world.ClientWorld;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
@@ -64,6 +66,7 @@ public class SuperSkyBlock
     public static final RegistryObject<Block> MOLECULAR_III_BLOCK = BLOCKS.register("moleculariiiblock", () -> new BaseBlock(StandartBlockProperties));
     public static final RegistryObject<Block> EXCHANGER_BLOCK = BLOCKS.register("exchangerblock", () -> new ExchangerBlock(StandartBlockProperties));
     public static final RegistryObject<Block> STATIONARY_DIAMOND_ORE_GENERATOR_BLOCK = BLOCKS.register("stationarydiamondoregenerator", () -> new StationaryDiamondOreGeneratorBlock(StandartBlockProperties));
+    public static final RegistryObject<Block> DIAMOND_ANVIL_BLOCK = BLOCKS.register("diamondanvil", () -> new DiamondAnvilBlock(StandartBlockProperties));
 
     private static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(ForgeRegistries.ENTITIES, MODID);
     public static final RegistryObject<EntityType<ClownBoss>> CLOWNBOSS_ENTITY = ENTITIES.register("clownboss", () -> EntityType.Builder.of(ClownBoss::new, EntityClassification.MONSTER).sized(1f, 3f).build("ssb:clownboss"));
@@ -77,6 +80,7 @@ public class SuperSkyBlock
     public static final RegistryObject<TileEntityType<ExchangerBlockTile>> EXCHANGER_TILE = TILES.register("exchangertile", () -> TileEntityType.Builder.of(ExchangerBlockTile::new, EXCHANGER_BLOCK.get()).build(null));
     public static final RegistryObject<TileEntityType<Molecular1Tile>> MOLECULAR_I_TILE = TILES.register("molecularitile", () -> TileEntityType.Builder.of(Molecular1Tile::new, MOLECULAR_I_BLOCK.get()).build(null));
     public static final RegistryObject<TileEntityType<StationaryDiamondOreGeneratorTile>> STATIONARY_DIAMOND_ORE_GENERATOR_TILE = TILES.register("stationarydiamondoregeneratortile", () -> TileEntityType.Builder.of(StationaryDiamondOreGeneratorTile::new, STATIONARY_DIAMOND_ORE_GENERATOR_BLOCK.get()).build(null));
+    public static final RegistryObject<TileEntityType<DiamondAnvilTile>> DIAMOND_ANVIL_TILE = TILES.register("diamondanviltile", () -> TileEntityType.Builder.of(DiamondAnvilTile::new, DIAMOND_ANVIL_BLOCK.get()).build(null));
 
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     public static final RegistryObject<Item> INFORMATIVEEMPTY_ITEM = ITEMS.register("informativeempty", () -> new BaseItem("item.ssb.informativeempty", "message.ssb.informativeempty", new Item.Properties().tab(CreativeTab)));
@@ -113,6 +117,7 @@ public class SuperSkyBlock
     public static final RegistryObject<Item> MASKWITHGLASSES_ITEM = ITEMS.register("mwglasses", () -> new MaskWithGlasses("item.ssb.mwglasses", "message.ssb.mwglasses", new MaskWithGlassesArmorMaterial(), EquipmentSlotType.HEAD, new Item.Properties().tab(CreativeTab)));
     public static final RegistryObject<Item> PURPLEPOWDER_ITEM = ITEMS.register("purplepowder", () -> new BaseItem("item.ssb.purplepowder", "message.ssb.purplepowder", new Item.Properties().tab(CreativeTab)));
     public static final RegistryObject<Item> STATIONARY_DIAMOND_ORE_GENERATOR_ITEM = ITEMS.register("stationarydiamondoregeneratoritem", () -> new BaseBlockItem("item.ssb.stationarydiamondoregeneratoritem", "message.ssb.stationarydiamondoregeneratoritem", STATIONARY_DIAMOND_ORE_GENERATOR_BLOCK.get(), new Item.Properties().tab(CreativeTab)));
+    public static final RegistryObject<Item> DIAMOND_ANVIL_ITEM = ITEMS.register("diamondanvilitem", () -> new BaseBlockItem("item.ssb.diamondanvilitem", "message.ssb.diamondanvilitem", DIAMOND_ANVIL_BLOCK.get(), new Item.Properties().tab(CreativeTab)));
     //public static final RegistryObject<Item> BOSSPAWNEGG_ITEM = ITEMS.register("bossspawnegg", () -> new SpawnEggItem(TEST_ENTITY.get(), 0xeb4034, 0x34e2eb, new Item.Properties().tab(CreativeTab)));
 
     public SuperSkyBlock() {
@@ -146,7 +151,7 @@ public class SuperSkyBlock
         RenderingRegistry.registerEntityRenderingHandler(LEXALOX_ENTITY.get(), LexaLoxRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(KILLERHANG_ENTITY.get(), KillerHangRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(CLOWNTRADER_ENTITY.get(), ClownTraderRenderer::new);
-        //RenderTypeLookup.setRenderLayer(AUTO_INSCRBR_BLOCK.get(), RenderType.cutoutMipped());
+        RenderTypeLookup.setRenderLayer(DIAMOND_ANVIL_BLOCK.get(), RenderType.cutoutMipped());
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
