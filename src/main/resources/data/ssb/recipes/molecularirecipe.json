@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ssb:purplepowder"
+    },
+    "A": {
+      "item": "ssb:customgenitem"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "ssb:moleculariitem",
+    "count": 1
+  }
+}

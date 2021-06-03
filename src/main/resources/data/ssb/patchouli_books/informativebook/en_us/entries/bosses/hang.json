@@ -1,0 +1,24 @@
+{
+  "name": "Killer Hang",
+  "icon": "ssb:deathtotem",
+  "category": "ssb:bosses",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:deathtotem",
+      "text": "Second boss in your journey.$(br)Recommended at least 2 players.$(br2)Stats:$(br)Health: 300$(br)Armor: 5$(br)Melee damage: 15$(br)Speed: 1.0$(br)Phases: 4"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:deathtotemrecipe"
+    },
+    {
+      "type": "text",
+      "text": "Phases:$(br)Melee attack.$(br)[<200 HP] Randomly ignites target.$(br)[<150 HP] Random teleportations to boss.$(br)[<100 HP] Player explosions (don't break blocks)."
+    },
+    {
+      "type": "text",
+      "text": "Drops:$(br)$(#0f0)$(l:bossessences/bossessence2)Hang Essence$() - 100%, 24-64$(br)$(#0f0)$(l:weapons/hangkatana)Hang Katana$() - 100%$(br)$(#0f0)$(l:armor/hangglasses)Hang Glasses$() - 100%$(br)$(#0f0)$(l:misc/currency)Golden coin$() - 100%, 7"
+    }
+  ]
+}

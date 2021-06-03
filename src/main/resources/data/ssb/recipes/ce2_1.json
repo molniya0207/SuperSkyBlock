@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ssb:bossessence2"
+    }
+  },
+  "result": {
+    "item": "ssb:ce2_body",
+    "count": 1
+  }
+}

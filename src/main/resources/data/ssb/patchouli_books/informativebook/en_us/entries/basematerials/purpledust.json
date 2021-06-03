@@ -1,0 +1,13 @@
+{
+  "name": "Purple Dust",
+  "icon": "ssb:purplestone",
+  "category": "ssb:basematerials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:purplestone",
+      "link_recipe": true,
+      "text": "Tier 2 material, generated in $(#0f0)$(l:generators/customgen)Custom Generator$() with 2/10 chance."
+    }
+  ]
+}

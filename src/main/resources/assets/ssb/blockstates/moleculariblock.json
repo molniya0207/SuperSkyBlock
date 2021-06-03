@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ssb:block/moleculariblock" },
+    "facing=south": { "model": "ssb:block/moleculariblock", "y": 180 },
+    "facing=west":  { "model": "ssb:block/moleculariblock", "y": 270 },
+    "facing=east":  { "model": "ssb:block/moleculariblock", "y": 90 }
+  }
+}

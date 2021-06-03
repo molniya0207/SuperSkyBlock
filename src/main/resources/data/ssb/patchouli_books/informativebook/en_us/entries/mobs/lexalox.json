@@ -1,0 +1,11 @@
+{
+  "name": "Lexa lox",
+  "icon": "ssb:informativeempty",
+  "category": "ssb:mobs",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Spawned as minions by $(#0f0)$(l:bosses/clown)Clown$().$(br)Drops $(#0f0)$(l:misc/hangjaw)Hang Jaw$()"
+    }
+  ]
+}

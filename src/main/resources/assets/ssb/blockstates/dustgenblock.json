@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ssb:block/dustgenblock" },
+    "facing=south": { "model": "ssb:block/dustgenblock", "y": 180 },
+    "facing=west":  { "model": "ssb:block/dustgenblock", "y": 270 },
+    "facing=east":  { "model": "ssb:block/dustgenblock", "y": 90 }
+  }
+}

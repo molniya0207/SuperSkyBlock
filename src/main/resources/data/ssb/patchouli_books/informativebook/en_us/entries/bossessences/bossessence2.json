@@ -1,0 +1,13 @@
+{
+  "name": "Boss Essence Tier 2",
+  "icon": "ssb:bossessence2",
+  "category": "ssb:bossessences",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:bossessence2",
+      "link_recipe": true,
+      "text": "Drops from $(#0f0)$(l:bosses/hang)Killer Hang$()."
+    }
+  ]
+}

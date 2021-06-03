@@ -1,0 +1,15 @@
+{
+  "name": "Informati:ve",
+  "icon": "ssb:informativeempty",
+  "category": "ssb:misc",
+  "pages": [
+    {
+      "type": "text",
+      "text": "This book will help you in learning SSB - from start to finish. It can be crafted again, if you are forget it."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:informative"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Purple Powder",
+  "icon": "ssb:purplepowder",
+  "category": "ssb:advancedmaterials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Crushed dust."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:purplepowderrecipe"
+    }
+  ]
+}

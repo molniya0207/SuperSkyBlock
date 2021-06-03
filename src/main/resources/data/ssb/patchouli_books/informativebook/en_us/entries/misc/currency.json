@@ -1,0 +1,29 @@
+{
+  "name": "Currency, shops, exchange",
+  "icon": "ssb:goldencoin",
+  "category": "ssb:misc",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:goldencoin",
+      "text": "1 golden coin = 10 silver coins"
+    },
+    {
+      "type": "spotlight",
+      "item": "ssb:silvercoin",
+      "text": "Smallest currency value (like a cent)"
+    },
+    {
+      "type": "spotlight",
+      "title": "Shopkeeper",
+      "item": "ssb:silvercoin",
+      "text": "WIP$(br)Gives you ability to trade with your coins"
+    },
+    {
+      "type": "crafting",
+      "title": "Exchanger Block",
+      "recipe": "ssb:exchangerrecipe",
+      "text": "Right click with 10 silver coins in hand to get golden coin, click with golden coin to get 10 silver coins."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+    "G": {
+      "item": "ssb:goldencoin"
+    }
+  },
+  "result": {
+    "item": "ssb:exchangerblockitem",
+    "count": 1
+  }
+}

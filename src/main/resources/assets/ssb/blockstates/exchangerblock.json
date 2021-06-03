@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ssb:block/exchangerblock" },
+    "facing=south": { "model": "ssb:block/exchangerblock", "y": 180 },
+    "facing=west":  { "model": "ssb:block/exchangerblock", "y": 270 },
+    "facing=east":  { "model": "ssb:block/exchangerblock", "y": 90 }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Green Dust",
+  "icon": "ssb:greenstone",
+  "category": "ssb:basematerials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:greenstone",
+      "link_recipe": true,
+      "text": "The most basic of all basic materials: Green Dust!$(br)Generated in $(#0f0)$(l:generators/dustgen)Dust Generator$()."
+    }
+  ]
+}

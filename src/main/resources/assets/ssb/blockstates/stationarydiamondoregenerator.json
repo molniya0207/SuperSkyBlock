@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ssb:block/stationarydiamondoregenerator" },
+    "facing=south": { "model": "ssb:block/stationarydiamondoregenerator", "y": 180 },
+    "facing=west":  { "model": "ssb:block/stationarydiamondoregenerator", "y": 270 },
+    "facing=east":  { "model": "ssb:block/stationarydiamondoregenerator", "y": 90 }
+  }
+}

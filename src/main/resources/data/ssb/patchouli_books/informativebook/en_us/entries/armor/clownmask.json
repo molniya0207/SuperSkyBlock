@@ -1,0 +1,13 @@
+{
+  "name": "Clown Mask",
+  "icon": "ssb:clownmask_head",
+  "category": "ssb:armor",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:clownmask_head",
+      "link_recipe": true,
+      "text": "4 defense. Gives Speed when equipped.$(br)Drops from $(#0f0)$(l:bosses/clown)Clown$()."
+    }
+  ]
+}

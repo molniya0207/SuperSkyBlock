@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "#A#",
+    " B "
+  ],
+  "key": {
+    "#": {
+      "item": "ssb:bossessence1"
+    },
+    "A": {
+      "item": "ssb:firestone"
+    },
+    "D": {
+      "item": "ssb:hangjaw"
+    },
+    "B": {
+      "item": "ssb:clownspawn"
+    }
+
+  },
+  "result": {
+    "item": "ssb:deathtotem",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ssb:block/customgenblock" },
+    "facing=south": { "model": "ssb:block/customgenblock", "y": 180 },
+    "facing=west":  { "model": "ssb:block/customgenblock", "y": 270 },
+    "facing=east":  { "model": "ssb:block/customgenblock", "y": 90 }
+  }
+}

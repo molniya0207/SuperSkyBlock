@@ -1,0 +1,16 @@
+{
+  "name": "Mask with Glasses",
+  "icon": "ssb:mwglasses",
+  "category": "ssb:armor",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:mwglasses",
+      "text": "7 defense. Gives Strength and Speed when equipped."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:mwglassesrecipe"
+    }
+  ]
+}

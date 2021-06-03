@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#A#",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ssb:firestone"
+    },
+    "A": {
+      "item": "ssb:hangglasses"
+    },
+    "B": {
+      "item": "ssb:clownmask_head"
+    }
+  },
+  "result": {
+    "item": "ssb:mwglasses",
+    "count": 1
+  }
+}

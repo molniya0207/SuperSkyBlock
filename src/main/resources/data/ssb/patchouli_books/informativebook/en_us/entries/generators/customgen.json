@@ -1,0 +1,16 @@
+{
+  "name": "Custom Generator",
+  "icon": "ssb:customgenitem",
+  "category": "ssb:generators",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:customgenitem",
+      "text": "Generates one of random items: Cobblestone (3/10), Purple Dust (2/10), Dirt (3/10), Iron Ore (2/10)"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:customgenrecipe"
+    }
+  ]
+}

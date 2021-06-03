@@ -1,0 +1,13 @@
+{
+  "name": "Fire Dust",
+  "icon": "ssb:firestone",
+  "category": "ssb:basematerials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:firestone",
+      "link_recipe": true,
+      "text": "Tier 3 material.$(br)$(#f00)Ignites$() you when in inventory."
+    }
+  ]
+}

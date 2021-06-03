@@ -1,0 +1,12 @@
+{
+  "name": "Molecular Converter Tier 2",
+  "icon": "ssb:moleculariiitem",
+  "category": "ssb:machines",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:moleculariiitem",
+      "text": "Converts one item into another, but it ratio is really bad. Both-way, don't require power."
+    }
+  ]
+}

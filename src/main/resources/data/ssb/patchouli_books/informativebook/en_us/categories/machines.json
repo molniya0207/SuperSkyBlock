@@ -1,0 +1,5 @@
+{
+  "name": "Machines",
+  "description": "Convert one materials to other. Some requires energy, some not. Some is manual, some is automatic.",
+  "icon": "ssb:moleculariitem"
+}

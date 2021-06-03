@@ -1,0 +1,12 @@
+{
+  "name": "Clown Sign",
+  "icon": "ssb:clownsign",
+  "category": "ssb:weapons",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:clownsign",
+      "text": "Stats:$(br)Damage: 11$(br)Speed: 1$(br)Drops from $(#0f0)$(l:bosses/clown)Clown$()."
+    }
+  ]
+}

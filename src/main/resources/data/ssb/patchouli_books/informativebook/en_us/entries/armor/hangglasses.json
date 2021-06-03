@@ -1,0 +1,13 @@
+{
+  "name": "Hang Glasses",
+  "icon": "ssb:hangglasses",
+  "category": "ssb:armor",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:hangglasses",
+      "link_recipe": true,
+      "text": "7 defense. Gives Strength when equipped.$(br)Drops from $(#0f0)$(l:bosses/hang)Killer Hang$()."
+    }
+  ]
+}

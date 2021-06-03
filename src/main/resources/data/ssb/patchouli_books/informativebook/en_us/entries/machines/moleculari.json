@@ -1,0 +1,16 @@
+{
+  "name": "Molecular Converter Tier 1",
+  "icon": "ssb:moleculariitem",
+  "category": "ssb:machines",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:moleculariitem",
+      "text": "Converts one item into another, but it ratio is really bad. One-way, don't require power.$(br2)Recipes:$(br)Iron Block -> Gold Ingot"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:molecularirecipe"
+    }
+  ]
+}

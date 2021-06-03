@@ -1,0 +1,20 @@
+{
+  "name": "Killer Hang Essence Armor",
+  "icon": "ssb:ce2_body",
+  "category": "ssb:armor",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Better than netherite and Clown Essence armor."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:ce2_1",
+      "recipe2": "ssb:ce2_2"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:ce2_3"
+    }
+  ]
+}

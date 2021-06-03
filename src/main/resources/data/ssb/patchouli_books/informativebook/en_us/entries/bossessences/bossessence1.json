@@ -1,0 +1,13 @@
+{
+  "name": "Boss Essence Tier 1",
+  "icon": "ssb:bossessence1",
+  "category": "ssb:bossessences",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:bossessence1",
+      "link_recipe": true,
+      "text": "Drops from $(#0f0)$(l:bosses/clown)Clown$()."
+    }
+  ]
+}
