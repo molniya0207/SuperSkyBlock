@@ -6,7 +6,7 @@
     {
       "type": "spotlight",
       "item": "ssb:diamondanvilitem",
-      "text": "Converts some specific items.$(br2)Recipes:$(br)$(#0f0)$(l:generators/customgen)Custom Generator$() -> $(#0f0)$(l:generators/custom2gen)Custom Generator Tier 2$()"
+      "text": "Converts some specific items. And also it looks terrible (mainly because of a visual bug).$(br2)Recipes:$(br)$(#0f0)$(l:generators/customgen)Custom Generator$() -> $(#0f0)$(l:generators/custom2gen)Custom Generator Tier 2$()"
     },
     {
       "type": "crafting",

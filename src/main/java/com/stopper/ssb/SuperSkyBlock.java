@@ -1,14 +1,8 @@
 package com.stopper.ssb;
 
-import com.stopper.ssb.client.entity.renderer.ClownBossRenderer;
-import com.stopper.ssb.client.entity.renderer.ClownTraderRenderer;
-import com.stopper.ssb.client.entity.renderer.KillerHangRenderer;
-import com.stopper.ssb.client.entity.renderer.LexaLoxRenderer;
+import com.stopper.ssb.client.entity.renderer.*;
 import com.stopper.ssb.common.blocks.*;
-import com.stopper.ssb.common.entities.ClownBoss;
-import com.stopper.ssb.common.entities.ClownTrader;
-import com.stopper.ssb.common.entities.KillerHangBoss;
-import com.stopper.ssb.common.entities.LexaLox;
+import com.stopper.ssb.common.entities.*;
 import com.stopper.ssb.common.items.*;
 import com.stopper.ssb.common.utils.*;
 import net.minecraft.block.AbstractBlock;
@@ -48,6 +42,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.annotation.Nullable;
+import java.util.function.Predicate;
 
 @Mod("ssb")
 public class SuperSkyBlock
@@ -58,6 +53,8 @@ public class SuperSkyBlock
 
     public static final String MODID = "ssb";
 
+    public static Registration registration = new Registration();
+
     public SuperSkyBlock() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
@@ -66,7 +63,7 @@ public class SuperSkyBlock
 
         MinecraftForge.EVENT_BUS.register(this);
 
-        Registration.init();
+        registration.init();
     }
 
     private void setup(final FMLCommonSetupEvent event)
@@ -74,7 +71,7 @@ public class SuperSkyBlock
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-        ItemModelsProperties.register(Registration.RAINBOWSTONE_ITEM.get(), new ResourceLocation("time"), new IItemPropertyGetter() {
+        ItemModelsProperties.register(registration.RAINBOWSTONE_ITEM.get(), new ResourceLocation("time"), new IItemPropertyGetter() {
             float retVal = 1.0f;
             @Override
             public float call(ItemStack stackIn, @Nullable ClientWorld worldIn, @Nullable LivingEntity entityIn) {
@@ -82,12 +79,14 @@ public class SuperSkyBlock
                 return retVal;
             }
         });
-        RenderingRegistry.registerEntityRenderingHandler(Registration.CLOWNBOSS_ENTITY.get(), ClownBossRenderer::new);
-        RenderingRegistry.registerEntityRenderingHandler(Registration.LEXALOX_ENTITY.get(), LexaLoxRenderer::new);
-        RenderingRegistry.registerEntityRenderingHandler(Registration.KILLERHANG_ENTITY.get(), KillerHangRenderer::new);
-        RenderingRegistry.registerEntityRenderingHandler(Registration.CLOWNTRADER_ENTITY.get(), ClownTraderRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(registration.CLOWNBOSS_ENTITY.get(), ClownBossRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(registration.LEXALOX_ENTITY.get(), LexaLoxRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(registration.KILLERHANG_ENTITY.get(), KillerHangRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(registration.CLOWNTRADER_ENTITY.get(), ClownTraderRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(registration.DEVILBOSS_ENTITY.get(), DevilBossRenderer::new);
 
-        RenderTypeLookup.setRenderLayer(Registration.DIAMOND_ANVIL_BLOCK.get(), RenderType.translucent());
+        Predicate<RenderType> cutoutPredicate = renderType -> renderType == RenderType.cutout();
+        RenderTypeLookup.setRenderLayer(registration.DIAMOND_ANVIL_BLOCK.get(), cutoutPredicate);
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
@@ -115,10 +114,11 @@ public class SuperSkyBlock
         @SubscribeEvent
         public static void onEntityAttrCreateEvent(EntityAttributeCreationEvent event) {
             //AttributeModifierMap.MutableAttribute amm = AttributeModifierMap.builder().add(Attributes.MAX_HEALTH).add(Attributes.KNOCKBACK_RESISTANCE).add(Attributes.MOVEMENT_SPEED).add(Attributes.ARMOR).add(Attributes.ARMOR_TOUGHNESS).add(ForgeMod.SWIM_SPEED.get()).add(ForgeMod.NAMETAG_DISTANCE.get()).add(ForgeMod.ENTITY_GRAVITY.get()).add(Attributes.ATTACK_DAMAGE).add(Attributes.FOLLOW_RANGE).add(Attributes.ATTACK_KNOCKBACK);
-            event.put(Registration.CLOWNBOSS_ENTITY.get(), ClownBoss.createAttributes().build());
-            event.put(Registration.LEXALOX_ENTITY.get(), LexaLox.createAttributes().build());
-            event.put(Registration.KILLERHANG_ENTITY.get(), KillerHangBoss.createAttributes().build());
-            event.put(Registration.CLOWNTRADER_ENTITY.get(), ClownTrader.createAttributes().build());
+            event.put(registration.CLOWNBOSS_ENTITY.get(), ClownBoss.createAttributes().build());
+            event.put(registration.LEXALOX_ENTITY.get(), LexaLox.createAttributes().build());
+            event.put(registration.KILLERHANG_ENTITY.get(), KillerHangBoss.createAttributes().build());
+            event.put(registration.CLOWNTRADER_ENTITY.get(), ClownTrader.createAttributes().build());
+            event.put(registration.DEVILBOSS_ENTITY.get(), DevilBoss.createAttributes().build());
         }
     }
 
@@ -129,7 +129,7 @@ public class SuperSkyBlock
 
         @Override
         public ItemStack makeIcon() {
-            return Registration.FIRESTONE_ITEM.get().getDefaultInstance();
+            return registration.FIRESTONE_ITEM.get().getDefaultInstance();
         }
 
         @Override

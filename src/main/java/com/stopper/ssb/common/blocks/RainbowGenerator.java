@@ -1,7 +1,6 @@
 package com.stopper.ssb.common.blocks;
 
 import com.stopper.ssb.SuperSkyBlock;
-import com.stopper.ssb.common.utils.Registration;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.tileentity.TileEntity;
@@ -14,8 +13,8 @@ import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
 
-public class BaseGenerator extends BaseBlock {
-    public BaseGenerator(Properties props) {
+public class RainbowGenerator extends BaseBlock {
+    public RainbowGenerator(Properties props) {
         super(props);
     }
 
@@ -27,7 +26,7 @@ public class BaseGenerator extends BaseBlock {
     @Nullable
     @Override
     public TileEntity createTileEntity(BlockState state, IBlockReader world) {
-        return new BaseGeneratorTile(SuperSkyBlock.registration.DUST_GENERATOR_TILE.get());
+        return new RainbowGeneratorTile();
     }
 
     @Override
@@ -35,7 +34,7 @@ public class BaseGenerator extends BaseBlock {
         if (!worldIn.isClientSide) {
             TileEntity tileEntity = worldIn.getBlockEntity(pos);
             if (tileEntity instanceof BaseGeneratorTile) {
-                ((BaseGeneratorTile) tileEntity).onUse(playerIn, handIn);
+                ((RainbowGeneratorTile) tileEntity).onUse(playerIn, handIn);
             }
         }
         return ActionResultType.SUCCESS;

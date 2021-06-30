@@ -1,5 +1,6 @@
 package com.stopper.ssb.common.blocks;
 
+import com.stopper.ssb.SuperSkyBlock;
 import com.stopper.ssb.common.utils.Registration;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
@@ -12,7 +13,7 @@ import java.util.Random;
 
 public class CustomGeneratorTile extends BaseGeneratorTile implements ITickableTileEntity {
     public CustomGeneratorTile() {
-        super(Registration.CUSTOM_GENERATOR_TILE.get());
+        super(SuperSkyBlock.registration.CUSTOM_GENERATOR_TILE.get());
         this.requiredCounter = 30;
     }
 
@@ -25,7 +26,7 @@ public class CustomGeneratorTile extends BaseGeneratorTile implements ITickableT
         itemStacks.add(stack1);
         itemStacks.add(stack1);
 
-        ItemStack stack2 = new ItemStack(Registration.PURPLESTONE_ITEM.get());
+        ItemStack stack2 = new ItemStack(SuperSkyBlock.registration.PURPLESTONE_ITEM.get());
         stack2.setCount(2);
         itemStacks.add(stack2);
         itemStacks.add(stack2);

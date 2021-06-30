@@ -1,5 +1,6 @@
 package com.stopper.ssb.common.utils;
 
+import com.stopper.ssb.SuperSkyBlock;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
@@ -31,7 +32,7 @@ public class MaskWithGlassesArmorMaterial implements IArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.of(Registration.FIRESTONE_ITEM.get());
+        return Ingredient.of(SuperSkyBlock.registration.FIRESTONE_ITEM.get());
     }
 
     @Override
