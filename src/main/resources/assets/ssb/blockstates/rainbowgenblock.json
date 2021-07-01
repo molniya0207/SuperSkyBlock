@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ssb:block/rainbowgenblock" },
+    "facing=south": { "model": "ssb:block/rainbowgenblock", "y": 180 },
+    "facing=west":  { "model": "ssb:block/rainbowgenblock", "y": 270 },
+    "facing=east":  { "model": "ssb:block/rainbowgenblock", "y": 90 }
+  }
+}
