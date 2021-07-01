@@ -1,0 +1,28 @@
+{
+  "name": "Devil",
+  "icon": "ssb:devilspawn",
+  "category": "ssb:bosses",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:devilspawn",
+      "text": "Final boss in your journey??$(br)Stats:$(br)Health: 850$(br)Armor: 15$(br)Melee damage: 35$(br)Speed: 1.0$(br)Minions: $(#0f0)$(l:mobs/lexalox)Lexa lox$()$(br)Phases: 5"
+    },
+    {
+      "type": "entity",
+      "entity": "ssb:devilboss"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:clownspawnrecipe"
+    },
+    {
+      "type": "text",
+      "text": "Phases:$(br)Melee attack.$(br)[<600 HP] Lightning hit.$(br)[<500 HP] $(#0f0)$(l:mobs/lexalox)Minion$() spawn.$(br)[<400 HP] Teleport player to boss.$(br)[<250 HP] Player ignition and mystical attack."
+    },
+    {
+      "type": "text",
+      "text": "Drops:$(br)$(#0f0)$(l:bossessences/bossessence3)Devil Essence$() - 100%, 24-64$(br)$(#0f0)$(l:armor/clownmask)Clown Mask CHANGE$() - 100%$(br)$(#0f0)$(l:weapons/clownsign)Clown Sign CHANGE$() - 100%$(br)$(#0f0)$(l:misc/currency)Golden coin$() - 100%, 32"
+    }
+  ]
+}

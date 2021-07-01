@@ -16,7 +16,7 @@ public class DevilSpawnMinionsClown extends Goal {
     @Override
     public boolean canUse() {
         float rnd = this.boss.getRandom().nextFloat();
-        return this.boss.getHealth() < 450.0f && 0.1f < rnd && rnd < 0.12F;
+        return this.boss.getHealth() < 500.0f && 0.1f < rnd && rnd < 0.12F;
     }
 
     public boolean canContinueToUse() {

@@ -13,7 +13,7 @@ public class DevilTeleportTargetGoal extends Goal {
     @Override
     public boolean canUse() {
         float rnd = this.mob.getRandom().nextFloat();
-        return this.mob.getHealth() < 350.0f && 0.1f < rnd && rnd < 0.2F && mob.getTarget() != null;
+        return this.mob.getHealth() < 400.0f && 0.1f < rnd && rnd < 0.2F && mob.getTarget() != null;
     }
 
     @Override

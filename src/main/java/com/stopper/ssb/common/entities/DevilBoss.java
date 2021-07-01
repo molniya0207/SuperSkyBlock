@@ -40,7 +40,7 @@ public class DevilBoss extends MonsterEntity {
     public static AttributeModifierMap.MutableAttribute createAttributes() {
         return MonsterEntity.createMonsterAttributes()
                 .add(Attributes.ATTACK_DAMAGE, 35.0D)
-                .add(Attributes.MAX_HEALTH, 600.0D)
+                .add(Attributes.MAX_HEALTH, 850.0D)
                 .add(Attributes.FOLLOW_RANGE, 40.0D)
                 .add(Attributes.MOVEMENT_SPEED, 1.0d)
                 .add(Attributes.ARMOR, 15.0D);

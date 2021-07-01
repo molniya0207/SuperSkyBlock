@@ -97,6 +97,7 @@ public class Registration {
     public final RegistryObject<Item> CUSTOM2_GENERATOR_ITEM = ITEMS.register("custom2genitem", () -> new BaseBlockItem("item.ssb.custom2gen", "message.ssb.custom2gen", CUSTOM2_GENERATOR_BLOCK.get(), new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> ULTIMATE_HANGKATANA_ITEM = ITEMS.register("ultimatehangkatana", () -> new BaseTool("item.ssb.ultimatehangkatana", "message.ssb.ultimatehangkatana", 27f, -3f, ItemTier.NETHERITE, new Item.Properties().fireResistant().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> CLOWNTRADERSUMMON_ITEM = ITEMS.register("clowntradersummon", () -> new BossSummonItem("item.ssb.clowntradersummon", "message.ssb.clowntradersummon", 0, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
+    public final RegistryObject<Item> DEVILSPAWN_ITEM = ITEMS.register("devilspawn", () -> new BossSummonItem("item.ssb.devilspawn", "message.ssb.devilspawn", 3, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
 
     public void init() {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());

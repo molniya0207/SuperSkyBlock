@@ -21,6 +21,11 @@ public class Molecular1Tile extends TileEntity {
             playerIn.addItem(createItemStackFromItem(Items.GOLD_INGOT, 1));
             playerIn.setItemInHand(handIn, itemStack);
         }
+        if (itemStack.getItem() == Items.DIAMOND_BLOCK) {
+            itemStack.shrink(1);
+            playerIn.addItem(createItemStackFromItem(SuperSkyBlock.registration.FIRESTONE_ITEM.get(), 1));
+            playerIn.setItemInHand(handIn, itemStack);
+        }
     }
 
     public ItemStack createItemStackFromItem(Item item, int count) {
