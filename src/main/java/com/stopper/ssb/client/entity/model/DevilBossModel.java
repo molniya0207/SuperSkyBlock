@@ -52,6 +52,7 @@ public class DevilBossModel extends EntityModel<DevilBoss> {
 
 	@Override
 	public void renderToBuffer(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float r, float g, float b, float a) {
+		matrixStack.translate(0d, -1.5d, 0d);
 		bone.render(matrixStack, buffer, packedLight, packedOverlay);
 		bone2.render(matrixStack, buffer, packedLight, packedOverlay);
 		bone3.render(matrixStack, buffer, packedLight, packedOverlay);

@@ -25,7 +25,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "ssb:clownmask_head",
+          "name": "ssb:devilmask_head",
           "functions": [
             {
               "function": "minecraft:set_count",
