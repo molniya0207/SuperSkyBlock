@@ -1,15 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "Q#Q",
-    "###",
-    "Q#Q"
+    "WWW",
+    "#Q#",
+    "###"
   ],
   "key": {
     "#": {
-      "item": "ssb:greenstone"
+      "item": "ssb:firestone"
     },
     "Q": {
+      "item": "minecraft:water_bucket"
+    },
+    "W": {
       "item": "minecraft:oak_planks"
     }
   },
