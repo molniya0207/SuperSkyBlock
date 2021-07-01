@@ -9,6 +9,10 @@
       "text": "Your first boss.$(br)Stats:$(br)Health: 200$(br)Armor: 2$(br)Melee damage: 10$(br)Speed: 1.2$(br)Minions: $(#0f0)$(l:mobs/lexalox)Lexa lox$()$(br)Phases: 3"
     },
     {
+      "type": "entity",
+      "entity": "ssb:clownboss"
+    },
+    {
       "type": "crafting",
       "recipe": "ssb:clownspawnrecipe"
     },

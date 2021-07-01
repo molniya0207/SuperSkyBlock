@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/rgtb",
-		"1": "block/rgsides",
-		"particle": "block/rgtb"
+		"0": "ssb:block/rainbowgenerator",
+		"1": "ssb:block/rainbowgenerator_front",
+		"particle": "ssb:block/rainbowgenerator"
 	},
 	"elements": [
 		{
