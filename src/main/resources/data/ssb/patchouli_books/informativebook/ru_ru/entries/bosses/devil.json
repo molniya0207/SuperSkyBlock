@@ -1,12 +1,12 @@
 {
-  "name": "Devil",
+  "name": "Демон",
   "icon": "ssb:devilspawn",
   "category": "ssb:bosses",
   "pages": [
     {
       "type": "spotlight",
       "item": "ssb:devilspawn",
-      "text": "Final boss in your journey??$(br)Stats:$(br)Health: 850$(br)Armor: 15$(br)Melee damage: 35$(br)Speed: 1.0$(br)Minions: $(#0f0)$(l:mobs/lexalox)Lexa lox$()$(br)Phases: 5"
+      "text": "Финальный босс??$(br)Статистика:$(br)ХП: 850$(br)Защита: 15$(br)Урон: 35$(br)Скорость: 1.0$(br)Миньоны: $(#0f0)$(l:mobs/lexalox)Lexa lox$()$(br)Фаз: 5"
     },
     {
       "type": "entity",
@@ -18,11 +18,11 @@
     },
     {
       "type": "text",
-      "text": "Phases:$(br)Melee attack.$(br)[<600 HP] Lightning hit.$(br)[<500 HP] $(#0f0)$(l:mobs/lexalox)Minion$() spawn.$(br)[<400 HP] Teleport player to boss.$(br)[<250 HP] Player ignition and mystical attack."
+      "text": "Фазы:$(br)Ближная атака.$(br)[<600 HP] Удар молнией.$(br)[<500 HP] Спавн $(#0f0)$(l:mobs/lexalox)Lexa lox$().$(br)[<400 HP] Телепортация.$(br)[<250 HP] Поджог и мистичиская атака."
     },
     {
       "type": "text",
-      "text": "Drops:$(br)$(#0f0)$(l:bossessences/bossessence3)Devil Essence$() - 100%, 24-64$(br)$(#0f0)$(l:armor/devilmask)Devil Mask$() - 100%$(br)$(#0f0)$(l:misc/currency)Golden coin$() - 100%, 32"
+      "text": "Падает:$(br)$(#0f0)$(l:bossessences/bossessence3)Эссенция Босса 3 уровня$() - 100%, 24-64$(br)$(#0f0)$(l:armor/devilmask)Маска Демона$() - 100%$(br)$(#0f0)$(l:misc/currency)Золотая монета$() - 100%, 32"
     }
   ]
 }

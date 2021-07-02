@@ -6,7 +6,7 @@
     {
       "type": "spotlight",
       "item": "ssb:clownspawn",
-      "text": "Your first boss.$(br)Stats:$(br)Health: 200$(br)Armor: 2$(br)Melee damage: 10$(br)Speed: 1.2$(br)Minions: $(#0f0)$(l:mobs/lexalox)Lexa lox$()$(br)Phases: 3"
+      "text": "Ваш первый босс.$(br)Статистика:$(br)ХП: 200$(br)Защита: 2$(br)Урон: 10$(br)Скорость: 1.2$(br)Миньоны: $(#0f0)$(l:mobs/lexalox)Lexa lox$()$(br)Фаз: 3"
     },
     {
       "type": "entity",
@@ -18,11 +18,11 @@
     },
     {
       "type": "text",
-      "text": "Phases:$(br)Melee attack.$(br)[<150 HP] $(#0f0)$(l:mobs/lexalox)Minion$() spawn.$(br)[<100 HP] Lightning hit."
+      "text": "Фазы:$(br)Ближняя атака.$(br)[<150 HP] Спавн $(#0f0)$(l:mobs/lexalox)Lexa lox$().$(br)[<100 HP] Удар молнией."
     },
     {
       "type": "text",
-      "text": "Drops:$(br)$(#0f0)$(l:bossessences/bossessence1)Clown Essence$() - 100%, 24-64$(br)$(#0f0)$(l:armor/clownmask)Clown Mask$() - 100%$(br)$(#0f0)$(l:weapons/clownsign)Clown Sign$() - 100%$(br)$(#0f0)$(l:misc/currency)Golden coin$() - 100%, 3"
+      "text": "Падает:$(br)$(#0f0)$(l:bossessences/bossessence1)Эссенция Босса 1 уровня$() - 100%, 24-64$(br)$(#0f0)$(l:armor/clownmask)Маска Клоуна$() - 100%$(br)$(#0f0)$(l:weapons/clownsign)Знак Клоуна$() - 100%$(br)$(#0f0)$(l:misc/currency)Золотая монета$() - 100%, 3"
     }
   ]
 }

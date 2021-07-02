@@ -6,7 +6,7 @@
     {
       "type": "spotlight",
       "item": "ssb:deathtotem",
-      "text": "Second boss in your journey.$(br)Recommended at least 2 players.$(br2)Stats:$(br)Health: 300$(br)Armor: 5$(br)Melee damage: 15$(br)Speed: 1.0$(br)Phases: 4"
+      "text": "Второй босс.$(br2)Статистика:$(br)ХП: 300$(br)Защита: 5$(br)Урон: 15$(br)Скорость: 1.0$(br)Фаз: 4"
     },
     {
       "type": "entity",
@@ -18,11 +18,11 @@
     },
     {
       "type": "text",
-      "text": "Phases:$(br)Melee attack.$(br)[<200 HP] Randomly ignites target.$(br)[<150 HP] Random teleportations to boss.$(br)[<100 HP] Player explosions (don't break blocks)."
+      "text": "Фазы:$(br)Ближная атака.$(br)[<200 HP] Поджог.$(br)[<150 HP] Телепортация.$(br)[<100 HP] Взрыв (не ломает блоки)"
     },
     {
       "type": "text",
-      "text": "Drops:$(br)$(#0f0)$(l:bossessences/bossessence2)Hang Essence$() - 100%, 24-64$(br)$(#0f0)$(l:weapons/hangkatana)Hang Katana$() - 100%$(br)$(#0f0)$(l:armor/hangglasses)Hang Glasses$() - 100%$(br)$(#0f0)$(l:misc/currency)Golden coin$() - 100%, 7"
+      "text": "Падает:$(br)$(#0f0)$(l:bossessences/bossessence2)Эссенция босса 2 уровня$() - 100%, 24-64$(br)$(#0f0)$(l:weapons/hangkatana)Катана Хэнга$() - 100%$(br)$(#0f0)$(l:armor/hangglasses)Очки Хэнга$() - 100%$(br)$(#0f0)$(l:misc/currency)Золотые монетки$() - 100%, 7"
     }
   ]
 }
