@@ -1,0 +1,13 @@
+{
+  "name": "Очки Хэнга",
+  "icon": "ssb:hangglasses",
+  "category": "ssb:armor",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:hangglasses",
+      "link_recipe": true,
+      "text": "7 защиты. Даёт силу когда надета.$(br)Падает с $(#0f0)$(l:bosses/hang)Хэнга$()."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Clown",
+  "icon": "ssb:clownspawn",
+  "category": "ssb:bosses",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:clownspawn",
+      "text": "Your first boss.$(br)Stats:$(br)Health: 200$(br)Armor: 2$(br)Melee damage: 10$(br)Speed: 1.2$(br)Minions: $(#0f0)$(l:mobs/lexalox)Lexa lox$()$(br)Phases: 3"
+    },
+    {
+      "type": "entity",
+      "entity": "ssb:clownboss"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:clownspawnrecipe"
+    },
+    {
+      "type": "text",
+      "text": "Phases:$(br)Melee attack.$(br)[<150 HP] $(#0f0)$(l:mobs/lexalox)Minion$() spawn.$(br)[<100 HP] Lightning hit."
+    },
+    {
+      "type": "text",
+      "text": "Drops:$(br)$(#0f0)$(l:bossessences/bossessence1)Clown Essence$() - 100%, 24-64$(br)$(#0f0)$(l:armor/clownmask)Clown Mask$() - 100%$(br)$(#0f0)$(l:weapons/clownsign)Clown Sign$() - 100%$(br)$(#0f0)$(l:misc/currency)Golden coin$() - 100%, 3"
+    }
+  ]
+}

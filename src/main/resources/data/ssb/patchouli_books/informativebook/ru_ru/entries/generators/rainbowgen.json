@@ -1,0 +1,32 @@
+{
+  "name": "Радужный генератор",
+  "icon": "ssb:rainbowgenitem",
+  "category": "ssb:generators",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Rainbow Generator",
+      "multiblock": {
+        "pattern": [
+          [ "   ", "   ", "   ", "   ", "   " ],
+          [ "   ", "   ", "   ", "   ", "   " ],
+          [ "   ", "   ", " 0 ", "   ", "   " ],
+          [ "   ", "   ", " W ", "   ", "   " ],
+          [ "   ", "   ", " R ", "   ", "   " ]
+        ],
+        "mapping": {
+          "W": "minecraft:water",
+          "R": "ssb:rainbowgenblock",
+          "a": "AIR",
+          " ": "ANY"
+        },
+        "symmetrical": true
+      },
+      "text": "Water must be on top of generator. Click on generator with $(#0f0)$(l:basematerials/firedust)Fire Dust$() to get $(#0f0)$(l:basematerials/firedust)Rainbow Dust$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:rainbowgenrecipe"
+    }
+  ]
+}

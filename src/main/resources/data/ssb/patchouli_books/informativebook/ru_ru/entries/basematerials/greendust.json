@@ -1,0 +1,13 @@
+{
+  "name": "Зелёная пыть",
+  "icon": "ssb:greenstone",
+  "category": "ssb:basematerials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:greenstone",
+      "link_recipe": true,
+      "text": "Самый базовый материал!$(br)Сгенерирован в $(#0f0)$(l:generators/dustgen)Dust Generator$()."
+    }
+  ]
+}

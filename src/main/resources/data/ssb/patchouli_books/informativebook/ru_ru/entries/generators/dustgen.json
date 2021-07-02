@@ -1,0 +1,12 @@
+{
+  "name": "Dust Generator",
+  "icon": "ssb:dustgenitem",
+  "category": "ssb:generators",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:dustgenitem",
+      "text": "Генерирует зелёную пыль."
+    }
+  ]
+}

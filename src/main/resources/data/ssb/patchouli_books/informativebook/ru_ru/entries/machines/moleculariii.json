@@ -1,0 +1,12 @@
+{
+  "name": "Molecular Converter Tier 3",
+  "icon": "ssb:moleculariiiitem",
+  "category": "ssb:machines",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:moleculariiiitem",
+      "text": "Converts one item into another, but it ratio is not that bad. Both-way and intermediate state, require power."
+    }
+  ]
+}

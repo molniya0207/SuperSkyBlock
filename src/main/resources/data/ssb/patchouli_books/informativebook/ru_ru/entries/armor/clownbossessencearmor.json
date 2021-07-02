@@ -1,0 +1,20 @@
+{
+  "name": "Броня 1 уровня",
+  "icon": "ssb:ce_body",
+  "category": "ssb:armor",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Better than diamond armor."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:ce1",
+      "recipe2": "ssb:ce2"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:ce3"
+    }
+  ]
+}

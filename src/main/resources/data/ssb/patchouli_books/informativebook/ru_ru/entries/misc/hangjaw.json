@@ -1,0 +1,13 @@
+{
+  "name": "Челюсть Хэнга",
+  "icon": "ssb:hangjaw",
+  "category": "ssb:misc",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:hangjaw",
+      "link_recipe": true,
+      "text": "Падает с $(#0f0)$(l:mobs/lexalox)Lexa lox$().$(br)Used to craft $(#0f0)$(l:bosses/hang)Killer Hang$() summon."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Фиолетовая пыль",
+  "icon": "ssb:purplepowder",
+  "category": "ssb:advancedmaterials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Раздробленная пыль."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:purplepowderrecipe"
+    }
+  ]
+}

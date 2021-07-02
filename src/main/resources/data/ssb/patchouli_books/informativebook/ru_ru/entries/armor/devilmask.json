@@ -1,0 +1,13 @@
+{
+  "name": "Маска Демона",
+  "icon": "ssb:devilmask_head",
+  "category": "ssb:armor",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:devilmask_head",
+      "link_recipe": true,
+      "text": "12 защиты. Даёт скорость 2, сила 2, Saturation когда надета.$(br)Падает с $(#0f0)$(l:bosses/devil)Демона$()."
+    }
+  ]
+}
