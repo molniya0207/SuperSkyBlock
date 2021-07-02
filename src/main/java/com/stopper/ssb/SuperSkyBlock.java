@@ -75,7 +75,7 @@ public class SuperSkyBlock
             float retVal = 1.0f;
             @Override
             public float call(ItemStack stackIn, @Nullable ClientWorld worldIn, @Nullable LivingEntity entityIn) {
-                if (retVal != 4.0f) retVal += 0.1f; else retVal = 1.0f;
+                if (retVal != 5.0f) retVal += 0.1f; else retVal = 1.0f;
                 return retVal;
             }
         });
