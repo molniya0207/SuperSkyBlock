@@ -7,7 +7,7 @@
       "type": "spotlight",
       "item": "ssb:purplestone",
       "link_recipe": true,
-      "text": "Материал 2 уровня, сгенерирован в $(#0f0)$(l:generators/customgen)Custom Generator$() с 2/10 шансом."
+      "text": "Материал 2 уровня, сгенерирован в $(#0f0)$(l:generators/customgen)Кастомном генераторе$() с шансом 2/10."
     }
   ]
 }

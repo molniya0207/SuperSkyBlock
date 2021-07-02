@@ -7,11 +7,11 @@
       "type": "spotlight",
       "item": "ssb:rainbowstone",
       "link_recipe": true,
-      "text": "Материал 4 уровня, colorful dust than can be used to create rainbow things. First dust that can be smelted to ingot."
+      "text": "Материал 4 уровня, радужная пыль для создания радужных вещей."
     },
     {
       "type": "text",
-      "text": "To craft this, you will need an rainbow collector."
+      "text": "Вам нужен радужный генератор для её получения."
     }
   ]
 }
