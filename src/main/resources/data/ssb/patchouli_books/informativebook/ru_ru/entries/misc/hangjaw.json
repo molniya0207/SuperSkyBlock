@@ -7,7 +7,7 @@
       "type": "spotlight",
       "item": "ssb:hangjaw",
       "link_recipe": true,
-      "text": "Падает с $(#0f0)$(l:mobs/lexalox)Lexa lox$().$(br)Used to craft $(#0f0)$(l:bosses/hang)Killer Hang$() summon."
+      "text": "Падает с $(#0f0)$(l:mobs/lexalox)Lexa lox$().$(br)Используется для крафта $(#0f0)$(l:bosses/hang)Тотема смерти$()."
     }
   ]
 }

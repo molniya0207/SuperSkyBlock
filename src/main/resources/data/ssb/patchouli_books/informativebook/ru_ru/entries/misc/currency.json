@@ -23,7 +23,7 @@
       "type": "crafting",
       "title": "Exchanger Block",
       "recipe": "ssb:exchangerrecipe",
-      "text": "Right click with 10 silver coins in hand to get golden coin, click with golden coin to get 10 silver coins."
+      "text": "Нажмите с 10 серебрянными монетами в руке чтобы получить золотую монету, нажмите с золотой монетой в руке чтобы получить 10 серебрянных монет."
     }
   ]
 }
