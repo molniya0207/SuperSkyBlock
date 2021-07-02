@@ -1,12 +1,12 @@
 {
-  "name": "Molecular Converter Tier 2",
+  "name": "Молекулярный преобразователь 2 уровня",
   "icon": "ssb:moleculariiitem",
   "category": "ssb:machines",
   "pages": [
     {
       "type": "spotlight",
       "item": "ssb:moleculariiitem",
-      "text": "Converts one item into another, but it ratio is really bad. Both-way, don't require power."
+      "text": "Преобразует предметы, но соотношение очень плохое. Двух сторонний, не требует энергию."
     }
   ]
 }

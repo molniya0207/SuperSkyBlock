@@ -6,7 +6,7 @@
     {
       "type": "spotlight",
       "item": "ssb:diamondanvilitem",
-      "text": "Converts some specific items. And also it looks terrible (mainly because of a visual bug).$(br2)Recipes:$(br)$(#0f0)$(l:generators/customgen)Custom Generator$() -> $(#0f0)$(l:generators/custom2gen)Custom Generator Tier 2$()"
+      "text": "Преобразует предметы. И выглядит плохо из-за визуального бага.$(br2)Рецепты:$(br)$(#0f0)$(l:generators/customgen)Кастомный генератор$() -> $(#0f0)$(l:generators/custom2gen)Кастомный генератор 2 уровня$()"
     },
     {
       "type": "crafting",
