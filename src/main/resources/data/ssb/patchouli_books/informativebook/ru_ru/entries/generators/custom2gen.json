@@ -6,7 +6,7 @@
     {
       "type": "spotlight",
       "item": "ssb:custom2genitem",
-      "text": "Генерирует: Lapis Lazuli (3/10), Gold Ore (2/10), Iron Ingot (3/10), Diamond (2/10)$(br)Use Custom Generator on $(#0f0)$(l:machines/diamondanvil)Diamond Anvil$() to get Tier 2."
+      "text": "Генерирует: Лазурит (3/10), Золотая руда (2/10), Железный слиток (3/10), Алмаз (2/10)$(br)Используйте кастомный генератор на $(#0f0)$(l:machines/diamondanvil)Алмазной наковальни$() чтобы получить Уровень 2."
     }
   ]
 }

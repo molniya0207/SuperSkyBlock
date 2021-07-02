@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "multiblock",
-      "name": "Rainbow Generator",
+      "name": "Радужный генератор",
       "multiblock": {
         "pattern": [
           [ "   ", "   ", "   ", "   ", "   " ],
@@ -22,7 +22,7 @@
         },
         "symmetrical": true
       },
-      "text": "Water must be on top of generator. Click on generator with $(#0f0)$(l:basematerials/firedust)Fire Dust$() to get $(#0f0)$(l:basematerials/firedust)Rainbow Dust$()."
+      "text": "Вода должна быть на генераторе. Нажмите с $(#0f0)$(l:basematerials/firedust)огненной пылью$() в руках чтобы получить $(#0f0)$(l:basematerials/rainbowdust)Радужную пыль$()."
     },
     {
       "type": "crafting",

@@ -1,12 +1,12 @@
 {
-  "name": "Stationary Diamond Ore Generator",
+  "name": "Стационарный генератор алмазной руды",
   "icon": "ssb:stationarydiamondoregeneratoritem",
   "category": "ssb:generators",
   "pages": [
     {
       "type": "spotlight",
       "item": "ssb:stationarydiamondoregeneratoritem",
-      "text": "Generates diamond ore on top of this block."
+      "text": "Генерирует алмазную руду на блоке."
     },
     {
       "type": "crafting",
