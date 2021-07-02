@@ -14,7 +14,7 @@
     },
     {
       "type": "crafting",
-      "recipe": "ssb:clownspawnrecipe"
+      "recipe": "ssb:devilspawnrecipe"
     },
     {
       "type": "text",
@@ -22,7 +22,7 @@
     },
     {
       "type": "text",
-      "text": "Drops:$(br)$(#0f0)$(l:bossessences/bossessence3)Devil Essence$() - 100%, 24-64$(br)$(#0f0)$(l:armor/clownmask)Clown Mask CHANGE$() - 100%$(br)$(#0f0)$(l:weapons/clownsign)Clown Sign CHANGE$() - 100%$(br)$(#0f0)$(l:misc/currency)Golden coin$() - 100%, 32"
+      "text": "Drops:$(br)$(#0f0)$(l:bossessences/bossessence3)Devil Essence$() - 100%, 24-64$(br)$(#0f0)$(l:armor/devilmask)Devil Mask$() - 100%$(br)$(#0f0)$(l:misc/currency)Golden coin$() - 100%, 32"
     }
   ]
 }
