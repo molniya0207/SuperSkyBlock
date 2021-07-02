@@ -1,5 +1,6 @@
 package com.stopper.ssb.common.blocks;
 
+import com.stopper.ssb.SuperSkyBlock;
 import com.stopper.ssb.common.utils.Registration;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -10,14 +11,14 @@ import net.minecraft.util.Hand;
 
 public class DiamondAnvilTile extends TileEntity {
     public DiamondAnvilTile() {
-        super(Registration.DIAMOND_ANVIL_TILE.get());
+        super(SuperSkyBlock.registration.DIAMOND_ANVIL_TILE.get());
     }
 
     public void onUse(PlayerEntity playerIn, Hand handIn) {
         ItemStack itemStack = playerIn.getItemInHand(handIn);
-        if (itemStack.getItem() == Items.IRON_BLOCK) {
+        if (itemStack.getItem() == SuperSkyBlock.registration.CUSTOM_GENERATOR_ITEM.get()) {
             itemStack.shrink(1);
-            playerIn.addItem(createItemStackFromItem(Items.GOLD_INGOT, 1));
+            playerIn.addItem(createItemStackFromItem(SuperSkyBlock.registration.CUSTOM2_GENERATOR_ITEM.get(), 1));
             playerIn.setItemInHand(handIn, itemStack);
         }
     }

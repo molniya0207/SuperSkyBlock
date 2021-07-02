@@ -1,5 +1,6 @@
 package com.stopper.ssb.common.blocks;
 
+import com.stopper.ssb.SuperSkyBlock;
 import com.stopper.ssb.common.utils.Registration;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -10,7 +11,7 @@ import net.minecraft.util.Hand;
 
 public class Molecular1Tile extends TileEntity {
     public Molecular1Tile() {
-        super(Registration.MOLECULAR_I_TILE.get());
+        super(SuperSkyBlock.registration.MOLECULAR_I_TILE.get());
     }
 
     public void onUse(PlayerEntity playerIn, Hand handIn) {
@@ -18,6 +19,11 @@ public class Molecular1Tile extends TileEntity {
         if (itemStack.getItem() == Items.IRON_BLOCK) {
             itemStack.shrink(1);
             playerIn.addItem(createItemStackFromItem(Items.GOLD_INGOT, 1));
+            playerIn.setItemInHand(handIn, itemStack);
+        }
+        if (itemStack.getItem() == Items.DIAMOND_BLOCK) {
+            itemStack.shrink(1);
+            playerIn.addItem(createItemStackFromItem(SuperSkyBlock.registration.FIRESTONE_ITEM.get(), 1));
             playerIn.setItemInHand(handIn, itemStack);
         }
     }

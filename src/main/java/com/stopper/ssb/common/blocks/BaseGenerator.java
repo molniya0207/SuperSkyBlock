@@ -1,5 +1,6 @@
 package com.stopper.ssb.common.blocks;
 
+import com.stopper.ssb.SuperSkyBlock;
 import com.stopper.ssb.common.utils.Registration;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
@@ -26,7 +27,7 @@ public class BaseGenerator extends BaseBlock {
     @Nullable
     @Override
     public TileEntity createTileEntity(BlockState state, IBlockReader world) {
-        return new BaseGeneratorTile(Registration.DUST_GENERATOR_TILE.get());
+        return new BaseGeneratorTile(SuperSkyBlock.registration.DUST_GENERATOR_TILE.get());
     }
 
     @Override

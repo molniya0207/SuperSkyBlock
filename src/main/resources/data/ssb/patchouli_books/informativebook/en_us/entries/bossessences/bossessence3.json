@@ -1,0 +1,13 @@
+{
+  "name": "Boss Essence Tier 3",
+  "icon": "ssb:bossessence3",
+  "category": "ssb:bossessences",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:bossessence3",
+      "link_recipe": true,
+      "text": "Drops from $(#0f0)$(l:bosses/devil)Devil$()."
+    }
+  ]
+}

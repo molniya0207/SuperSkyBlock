@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "#Q#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ssb:firestone"
+    },
+    "Q": {
+      "item": "minecraft:water_bucket"
+    },
+    "W": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "result": {
+    "item": "ssb:rainbowgenitem",
+    "count": 1
+  }
+}

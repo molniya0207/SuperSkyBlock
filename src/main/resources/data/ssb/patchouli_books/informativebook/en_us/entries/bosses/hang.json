@@ -9,6 +9,10 @@
       "text": "Second boss in your journey.$(br)Recommended at least 2 players.$(br2)Stats:$(br)Health: 300$(br)Armor: 5$(br)Melee damage: 15$(br)Speed: 1.0$(br)Phases: 4"
     },
     {
+      "type": "entity",
+      "entity": "ssb:killerhang"
+    },
+    {
       "type": "crafting",
       "recipe": "ssb:deathtotemrecipe"
     },

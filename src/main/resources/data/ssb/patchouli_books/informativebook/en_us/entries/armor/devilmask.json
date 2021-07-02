@@ -1,0 +1,13 @@
+{
+  "name": "Devil Mask",
+  "icon": "ssb:devilmask_head",
+  "category": "ssb:armor",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:devilmask_head",
+      "link_recipe": true,
+      "text": "12 defense. Gives Speed 2, Strength 2, Saturation when equipped.$(br)Drops from $(#0f0)$(l:bosses/devil)Devil$()."
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 package com.stopper.ssb.common.utils;
 
+import com.stopper.ssb.SuperSkyBlock;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
@@ -40,7 +41,7 @@ public class ClownEssenceArmorMaterial implements IArmorMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.of(Registration.BOSSESSENCE1_ITEM.get());
+        return Ingredient.of(SuperSkyBlock.registration.BOSSESSENCE1_ITEM.get());
     }
 
     @Override
