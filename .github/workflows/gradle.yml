@@ -5,9 +5,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ testing ]
-  #pull_request:
-  #  branches: [ main ]
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
@@ -25,3 +25,8 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Store build
+      uses: actions/upload-artifact@v2
+      with:
+        name: SSB1_16_5.jar
+        path: ./build/libs/ssb-1.0.jar
