@@ -22,7 +22,7 @@
         },
         "symmetrical": true
       },
-      "text": "Water must be on top of generator. Click on generator with $(#0f0)$(l:basematerials/firedust)Fire Dust$() to get $(#0f0)$(l:basematerials/firedust)Rainbow Dust$()."
+      "text": "Water must be on top of generator. Click on generator with $(#0f0)$(l:basematerials/firedust)Fire Dust$() to get $(#0f0)$(l:basematerials/rainbowdust)Rainbow Dust$()."
     },
     {
       "type": "crafting",
