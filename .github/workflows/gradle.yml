@@ -28,7 +28,7 @@ jobs:
     - name: Store build
       uses: actions/upload-artifact@v2
       with:
-        name: SSB1_16_5.jar
+        name: SuperSkyBlock 1.16.5
         path: ./build/libs/ssb-1.0.jar
     - name: Webhook
       uses: joelwmale/webhook-action@master
