@@ -7,7 +7,6 @@
     { "predicate": { "time": 1.0 }, "model": "ssb:item/greenstone" },
     { "predicate": { "time": 2.0 }, "model": "ssb:item/purplestone" },
     { "predicate": { "time": 3.0 }, "model": "ssb:item/firestone" },
-    { "predicate": { "time": 4.0 }, "model": "ssb:item/rainbowstone" },
-    { "predicate": { "time": 5.0 }, "model": "ssb:item/purplestone" }
+    { "predicate": { "time": 4.0 }, "model": "ssb:item/purplestone" }
   ]
 }

@@ -7,11 +7,11 @@
       "type": "spotlight",
       "item": "ssb:rainbowstone",
       "link_recipe": true,
-      "text": "Tier 4 material, colorful dust than can be used to create rainbow things. First dust that can be smelted to ingot."
+      "text": "Tier 4 material, colorful dust than can be used to create rainbow things."
     },
     {
       "type": "text",
-      "text": "To craft this, you will need an rainbow collector."
+      "text": "To craft this, you will need an rainbow generator."
     }
   ]
 }
