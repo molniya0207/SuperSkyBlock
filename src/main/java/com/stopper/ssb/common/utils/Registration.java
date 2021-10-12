@@ -43,11 +43,13 @@ public class Registration {
     public final EntityType<LexaLox> LEXALOX_ENTITY_UNREG = EntityType.Builder.of(LexaLox::new, EntityClassification.MONSTER).sized(1f, 0.5f).build("ssb:lexalox");
     public final EntityType<KillerHangBoss> KILLERHANG_ENTITY_UNREG = EntityType.Builder.of(KillerHangBoss::new, EntityClassification.MONSTER).sized(1f, 3f).build("ssb:killerhang");
     public final EntityType<DevilBoss> DEVILBOSS_ENTITY_UNREG = EntityType.Builder.of(DevilBoss::new, EntityClassification.MONSTER).sized(1f, 2f).build("ssb:devilboss");
+    public final EntityType<LexaLoxBoss> LEXALOXBOSS_ENTITY_UNREG = EntityType.Builder.of(LexaLoxBoss::new, EntityClassification.MONSTER).sized(1f, 2f).build("ssb:lexaloxboss");
     public final RegistryObject<EntityType<ClownBoss>> CLOWNBOSS_ENTITY = ENTITIES.register("clownboss", () -> CLOWNBOSS_ENTITY_UNREG);
     public final RegistryObject<EntityType<ClownTrader>> CLOWNTRADER_ENTITY = ENTITIES.register("clowntrader", () -> CLOWNTRADER_ENTITY_UNREG);
     public final RegistryObject<EntityType<LexaLox>> LEXALOX_ENTITY = ENTITIES.register("lexalox", () -> LEXALOX_ENTITY_UNREG);
     public final RegistryObject<EntityType<KillerHangBoss>> KILLERHANG_ENTITY = ENTITIES.register("killerhang", () -> KILLERHANG_ENTITY_UNREG);
     public final RegistryObject<EntityType<DevilBoss>> DEVILBOSS_ENTITY = ENTITIES.register("devilboss", () -> DEVILBOSS_ENTITY_UNREG);
+    public final RegistryObject<EntityType<LexaLoxBoss>> LEXALOXBOSS_ENTITY = ENTITIES.register("lexaloxboss", () -> LEXALOXBOSS_ENTITY_UNREG);
 
     private final DeferredRegister<TileEntityType<?>> TILES = DeferredRegister.create(ForgeRegistries.TILE_ENTITIES, MODID);
     public final RegistryObject<TileEntityType<DustGeneratorTile>> DUST_GENERATOR_TILE = TILES.register("dustgentile", () -> TileEntityType.Builder.of(DustGeneratorTile::new, DUST_GENERATOR_BLOCK.get()).build(null));
@@ -99,6 +101,7 @@ public class Registration {
     public final RegistryObject<Item> CLOWNTRADERSUMMON_ITEM = ITEMS.register("clowntradersummon", () -> new BossSummonItem("item.ssb.clowntradersummon", "message.ssb.clowntradersummon", 0, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> DEVILSPAWN_ITEM = ITEMS.register("devilspawn", () -> new BossSummonItem("item.ssb.devilspawn", "message.ssb.devilspawn", 3, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> DEVILMASK_ITEM = ITEMS.register("devilmask_head", () -> new DevilMask("item.ssb.devilmask", "message.ssb.devilmask", new DevilMaskArmorMaterial(), EquipmentSlotType.HEAD, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
+    public final RegistryObject<Item> LEXALOXBOSSSPAWN_ITEM = ITEMS.register("lexaloxbossspawn", () -> new BossSummonItem("item.ssb.lexaloxbossspawn", "message.ssb.lexaloxbossspawn", 4, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
 
     public void init() {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
