@@ -1,0 +1,13 @@
+{
+  "name": "Фиолетовая пыль",
+  "icon": "ssb:purplestone",
+  "category": "ssb:basematerials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:purplestone",
+      "link_recipe": true,
+      "text": "Материал 2 уровня, сгенерирован в $(#0f0)$(l:generators/customgen)Кастомном генераторе$() с шансом 2/10."
+    }
+  ]
+}

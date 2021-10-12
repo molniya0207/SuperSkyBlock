@@ -1,0 +1,13 @@
+{
+  "name": "Огненная пыль",
+  "icon": "ssb:firestone",
+  "category": "ssb:basematerials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:firestone",
+      "link_recipe": true,
+      "text": "Материал 3 уровня.$(br)$(#f00)Поджигает$() вас когда в инвентаре."
+    }
+  ]
+}

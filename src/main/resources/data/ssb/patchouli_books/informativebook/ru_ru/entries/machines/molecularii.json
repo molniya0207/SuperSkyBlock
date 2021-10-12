@@ -1,0 +1,12 @@
+{
+  "name": "Молекулярный преобразователь 2 уровня",
+  "icon": "ssb:moleculariiitem",
+  "category": "ssb:machines",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:moleculariiitem",
+      "text": "Преобразует предметы, но соотношение очень плохое. Двух сторонний, не требует энергию."
+    }
+  ]
+}

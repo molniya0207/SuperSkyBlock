@@ -1,0 +1,13 @@
+{
+  "name": "Маска Клоуна",
+  "icon": "ssb:clownmask_head",
+  "category": "ssb:armor",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:clownmask_head",
+      "link_recipe": true,
+      "text": "4 защиты. Даёт скорость когда надета.$(br)Падает с $(#0f0)$(l:bosses/clown)Клоуна$()."
+    }
+  ]
+}

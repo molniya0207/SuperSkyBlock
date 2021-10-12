@@ -1,0 +1,16 @@
+{
+  "name": "Маска с очками",
+  "icon": "ssb:mwglasses",
+  "category": "ssb:armor",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:mwglasses",
+      "text": "7 защиты. Даёт силу и скорость когда надета."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:mwglassesrecipe"
+    }
+  ]
+}

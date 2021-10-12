@@ -1,0 +1,12 @@
+{
+  "name": "Знак Хэнга",
+  "icon": "ssb:clownsign",
+  "category": "ssb:weapons",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:clownsign",
+      "text": "Статистика:$(br)Урон: 11$(br)Скорость атаки: 1$(br)Падает с $(#0f0)$(l:bosses/clown)Клоун$()."
+    }
+  ]
+}
