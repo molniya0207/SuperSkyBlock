@@ -1,0 +1,13 @@
+{
+  "name": "Эссенция босса 3 уровня",
+  "icon": "ssb:bossessence3",
+  "category": "ssb:bossessences",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:bossessence3",
+      "link_recipe": true,
+      "text": "Падает с $(#0f0)$(l:bosses/devil)Демона$()."
+    }
+  ]
+}

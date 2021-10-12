@@ -1,0 +1,17 @@
+{
+  "name": "Радужная пыль",
+  "icon": "ssb:rainbowstone",
+  "category": "ssb:basematerials",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:rainbowstone",
+      "link_recipe": true,
+      "text": "Материал 4 уровня, радужная пыль для создания радужных вещей."
+    },
+    {
+      "type": "text",
+      "text": "Вам нужен радужный генератор для её получения."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Custom Generator Tier 2",
+  "icon": "ssb:custom2genitem",
+  "category": "ssb:generators",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:custom2genitem",
+      "text": "Генерирует: Лазурит (3/10), Золотая руда (2/10), Железный слиток (3/10), Алмаз (2/10)$(br)Используйте кастомный генератор на $(#0f0)$(l:machines/diamondanvil)Алмазной наковальни$() чтобы получить Уровень 2."
+    }
+  ]
+}

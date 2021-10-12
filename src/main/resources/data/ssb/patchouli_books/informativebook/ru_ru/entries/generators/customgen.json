@@ -1,0 +1,16 @@
+{
+  "name": "Custom Generator",
+  "icon": "ssb:customgenitem",
+  "category": "ssb:generators",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:customgenitem",
+      "text": "Генерирует: Булыжник (3/10), Фиолетовая пыль (2/10), Земля (3/10), Железная руда (2/10)"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:customgenrecipe"
+    }
+  ]
+}

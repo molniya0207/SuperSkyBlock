@@ -1,0 +1,12 @@
+{
+  "name": "Ultimate Hang Katana",
+  "icon": "ssb:ultimatehangkatana",
+  "category": "ssb:weapons",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:ultimatehangkatana",
+      "text": "Статистика:$(br)Урон: 27$(br)Скорость атаки: 1$(br)Можно купить у $(#0f0)$(l:misc/currency)Клоуна-торговца$()."
+    }
+  ]
+}

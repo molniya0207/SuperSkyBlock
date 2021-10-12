@@ -1,0 +1,16 @@
+{
+  "name": "Алмазная наковальня",
+  "icon": "ssb:diamondanvilitem",
+  "category": "ssb:machines",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:diamondanvilitem",
+      "text": "Преобразует предметы. И выглядит плохо из-за визуального бага.$(br2)Рецепты:$(br)$(#0f0)$(l:generators/customgen)Кастомный генератор$() -> $(#0f0)$(l:generators/custom2gen)Кастомный генератор 2 уровня$()"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:diamondanvilrecipe"
+    }
+  ]
+}

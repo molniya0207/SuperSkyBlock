@@ -1,0 +1,13 @@
+{
+  "name": "Эссенция босса 1 уровня",
+  "icon": "ssb:bossessence1",
+  "category": "ssb:bossessences",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:bossessence1",
+      "link_recipe": true,
+      "text": "Падает с $(#0f0)$(l:bosses/clown)Клоуна$()."
+    }
+  ]
+}

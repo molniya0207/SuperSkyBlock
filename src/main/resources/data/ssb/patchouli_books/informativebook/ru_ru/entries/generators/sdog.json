@@ -1,0 +1,16 @@
+{
+  "name": "Стационарный генератор алмазной руды",
+  "icon": "ssb:stationarydiamondoregeneratoritem",
+  "category": "ssb:generators",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:stationarydiamondoregeneratoritem",
+      "text": "Генерирует алмазную руду на блоке."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:sdogrecipe"
+    }
+  ]
+}

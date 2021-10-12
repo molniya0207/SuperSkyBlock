@@ -1,0 +1,28 @@
+{
+  "name": "Clown",
+  "icon": "ssb:clownspawn",
+  "category": "ssb:bosses",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:clownspawn",
+      "text": "Ваш первый босс.$(br)Статистика:$(br)ХП: 200$(br)Защита: 2$(br)Урон: 10$(br)Скорость: 1.2$(br)Миньоны: $(#0f0)$(l:mobs/lexalox)Lexa lox$()$(br)Фаз: 3"
+    },
+    {
+      "type": "entity",
+      "entity": "ssb:clownboss"
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:clownspawnrecipe"
+    },
+    {
+      "type": "text",
+      "text": "Фазы:$(br)Ближняя атака.$(br)[<150 HP] Спавн $(#0f0)$(l:mobs/lexalox)Lexa lox$().$(br)[<100 HP] Удар молнией."
+    },
+    {
+      "type": "text",
+      "text": "Падает:$(br)$(#0f0)$(l:bossessences/bossessence1)Эссенция Босса 1 уровня$() - 100%, 24-64$(br)$(#0f0)$(l:armor/clownmask)Маска Клоуна$() - 100%$(br)$(#0f0)$(l:weapons/clownsign)Знак Клоуна$() - 100%$(br)$(#0f0)$(l:misc/currency)Золотая монета$() - 100%, 3"
+    }
+  ]
+}

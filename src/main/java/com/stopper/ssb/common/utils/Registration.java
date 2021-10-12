@@ -102,6 +102,7 @@ public class Registration {
     public final RegistryObject<Item> DEVILSPAWN_ITEM = ITEMS.register("devilspawn", () -> new BossSummonItem("item.ssb.devilspawn", "message.ssb.devilspawn", 3, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> DEVILMASK_ITEM = ITEMS.register("devilmask_head", () -> new DevilMask("item.ssb.devilmask", "message.ssb.devilmask", new DevilMaskArmorMaterial(), EquipmentSlotType.HEAD, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> LEXALOXBOSSSPAWN_ITEM = ITEMS.register("lexaloxbossspawn", () -> new BossSummonItem("item.ssb.lexaloxbossspawn", "message.ssb.lexaloxbossspawn", 4, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
+    public final RegistryObject<Item> pobreiochko_ITEM = ITEMS.register("pobreiochko", () -> new BaseItem("побрей очко", "специальный заказ овла", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
 
     public void init() {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());

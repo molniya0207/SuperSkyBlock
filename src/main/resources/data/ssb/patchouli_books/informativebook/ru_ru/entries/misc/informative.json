@@ -1,0 +1,15 @@
+{
+  "name": "Informati:ve",
+  "icon": "ssb:informativeempty",
+  "category": "ssb:misc",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это книга вам поможет в продвижении."
+    },
+    {
+      "type": "crafting",
+      "recipe": "ssb:informative"
+    }
+  ]
+}

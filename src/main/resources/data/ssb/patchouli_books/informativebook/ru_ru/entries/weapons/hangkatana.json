@@ -1,0 +1,12 @@
+{
+  "name": "Катана Хэнга",
+  "icon": "ssb:hangkatana",
+  "category": "ssb:weapons",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:hangkatana",
+      "text": "Статистика:$(br)Урон: 16$(br)Скорость атаки: 1$(br)Падает с $(#0f0)$(l:bosses/hang)Хэнга$()."
+    }
+  ]
+}

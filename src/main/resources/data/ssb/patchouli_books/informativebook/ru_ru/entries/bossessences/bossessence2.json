@@ -1,0 +1,13 @@
+{
+  "name": "Эссенция босса 2 уровня",
+  "icon": "ssb:bossessence2",
+  "category": "ssb:bossessences",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:bossessence2",
+      "link_recipe": true,
+      "text": "Падает с $(#0f0)$(l:bosses/hang)Хэнга$()."
+    }
+  ]
+}

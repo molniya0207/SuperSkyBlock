@@ -1,0 +1,29 @@
+{
+  "name": "Валюты, магазины, обменники",
+  "icon": "ssb:goldencoin",
+  "category": "ssb:misc",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "ssb:goldencoin",
+      "text": "1 золотая = 10 серебрянных монет"
+    },
+    {
+      "type": "spotlight",
+      "item": "ssb:silvercoin",
+      "text": "Как цент."
+    },
+    {
+      "type": "crafting",
+      "title": "Клоун-торцовец",
+      "recipe": "ssb:clowntraderrecipe",
+      "text": "Он торгует."
+    },
+    {
+      "type": "crafting",
+      "title": "Exchanger Block",
+      "recipe": "ssb:exchangerrecipe",
+      "text": "Нажмите с 10 серебрянными монетами в руке чтобы получить золотую монету, нажмите с золотой монетой в руке чтобы получить 10 серебрянных монет."
+    }
+  ]
+}
