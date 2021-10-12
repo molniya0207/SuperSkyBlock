@@ -84,6 +84,7 @@ public class SuperSkyBlock
         RenderingRegistry.registerEntityRenderingHandler(registration.KILLERHANG_ENTITY.get(), KillerHangRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(registration.CLOWNTRADER_ENTITY.get(), ClownTraderRenderer::new);
         RenderingRegistry.registerEntityRenderingHandler(registration.DEVILBOSS_ENTITY.get(), DevilBossRenderer::new);
+        RenderingRegistry.registerEntityRenderingHandler(registration.LEXALOXBOSS_ENTITY.get(), LexaLoxBossRenderer::new);
 
         Predicate<RenderType> cutoutPredicate = renderType -> renderType == RenderType.cutout();
         RenderTypeLookup.setRenderLayer(registration.DIAMOND_ANVIL_BLOCK.get(), cutoutPredicate);
@@ -119,6 +120,7 @@ public class SuperSkyBlock
             event.put(registration.KILLERHANG_ENTITY.get(), KillerHangBoss.createAttributes().build());
             event.put(registration.CLOWNTRADER_ENTITY.get(), ClownTrader.createAttributes().build());
             event.put(registration.DEVILBOSS_ENTITY.get(), DevilBoss.createAttributes().build());
+            event.put(registration.LEXALOXBOSS_ENTITY.get(), LexaLoxBoss.createAttributes().build());
         }
     }
 

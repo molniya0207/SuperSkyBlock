@@ -57,12 +57,13 @@ public class ClownTrader extends AbstractVillagerEntity {
         offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.WATER_BUCKET, 1), 0, 99999, 3, 0, 0));
         offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.BONE_BLOCK, 2), 0, 99999, 3, 0, 0));
         offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.GRASS_BLOCK, 4), 0, 99999, 3, 0, 0));
-        offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.REDSTONE, 32), 0, 99999, 3, 0, 0));
-        offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.MELON_SLICE, 32), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 2), ItemStack.EMPTY, createItemStackFromItem(Items.REDSTONE, 64), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 1), ItemStack.EMPTY, createItemStackFromItem(Items.MELON_SLICE, 8), 0, 99999, 3, 0, 0));
         offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 8), ItemStack.EMPTY, createItemStackFromItem(Items.NAME_TAG, 1), 0, 99999, 3, 0, 0));
         offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 16), createItemStackFromItem(Items.DIAMOND_PICKAXE, 1), createItemStackWithEnchantmentsEF(Items.DIAMOND_PICKAXE, 1), 0, 3, 3, 0, 0));
         offerList.add(new MerchantOffer(createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 64), createItemStackFromItem(SuperSkyBlock.registration.HANGKATANA_ITEM.get(), 1), createItemStackFromItem(SuperSkyBlock.registration.ULTIMATE_HANGKATANA_ITEM.get(), 1), 0, 3, 3, 0, 0));
         offerList.add(new MerchantOffer(createItemStackFromItem(Items.WHEAT, 32), ItemStack.EMPTY, createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 1), 0, 99999, 3, 0, 0));
+        offerList.add(new MerchantOffer(createItemStackFromItem(Items.WHEAT, 64), ItemStack.EMPTY, createItemStackFromItem(Items.SUGAR_CANE, 1), 0, 99999, 3, 0, 0));
         offerList.add(new MerchantOffer(createItemStackFromItem(Items.MELON_SLICE, 64), ItemStack.EMPTY, createItemStackFromItem(SuperSkyBlock.registration.GOLDENCOIN_ITEM.get(), 1), 0, 99999, 3, 0, 0));
         for (int i = 0; i < offerList.size(); i++) {
             MerchantOffer merchantoffer = offerList.get(i);
