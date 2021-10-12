@@ -18,7 +18,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.server.ServerBossInfo;
 
 public class KillerHangBoss extends MonsterEntity implements IRangedAttackMob {
-    private final ServerBossInfo bossEvent = (ServerBossInfo)(new ServerBossInfo(this.getDisplayName(), BossInfo.Color.PURPLE, BossInfo.Overlay.PROGRESS)).setDarkenScreen(true);
+    private final ServerBossInfo bossEvent = (ServerBossInfo)(new ServerBossInfo(this.getDisplayName(), BossInfo.Color.PURPLE, BossInfo.Overlay.PROGRESS));
 
     public KillerHangBoss(EntityType<? extends MonsterEntity> type, World world) {
         super(type, world);
