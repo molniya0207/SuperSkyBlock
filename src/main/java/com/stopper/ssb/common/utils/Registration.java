@@ -30,12 +30,13 @@ public class Registration {
     public final RegistryObject<Block> CUSTOM_GENERATOR_BLOCK = BLOCKS.register("customgenblock", () -> new CustomGenerator(StandartBlockProperties));
     public final RegistryObject<Block> RAINBOW_GENERATOR_BLOCK = BLOCKS.register("rainbowgenblock", () -> new RainbowGenerator(StandartBlockProperties));
     public final RegistryObject<Block> MOLECULAR_I_BLOCK = BLOCKS.register("moleculariblock", () -> new Molecular1Block(StandartBlockProperties));
-    public final RegistryObject<Block> MOLECULAR_II_BLOCK = BLOCKS.register("moleculariiblock", () -> new BaseBlock(StandartBlockProperties));
+    public final RegistryObject<Block> MOLECULAR_II_BLOCK = BLOCKS.register("moleculariiblock", () -> new Molecular2Block(StandartBlockProperties));
     public final RegistryObject<Block> MOLECULAR_III_BLOCK = BLOCKS.register("moleculariiiblock", () -> new BaseBlock(StandartBlockProperties));
     public final RegistryObject<Block> EXCHANGER_BLOCK = BLOCKS.register("exchangerblock", () -> new ExchangerBlock(StandartBlockProperties));
     public final RegistryObject<Block> STATIONARY_DIAMOND_ORE_GENERATOR_BLOCK = BLOCKS.register("stationarydiamondoregenerator", () -> new StationaryDiamondOreGeneratorBlock(StandartBlockProperties));
     public final RegistryObject<Block> DIAMOND_ANVIL_BLOCK = BLOCKS.register("diamondanvil", () -> new DiamondAnvilBlock(StandartBlockProperties.sound(SoundType.ANVIL)));
     public final RegistryObject<Block> CUSTOM2_GENERATOR_BLOCK = BLOCKS.register("custom2genblock", () -> new Custom2Generator(StandartBlockProperties));
+    public final RegistryObject<Block> MCI_BLOCK = BLOCKS.register("magiccatalyzerinjector", () -> new MCIBlock(StandartBlockProperties));
 
     private final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(ForgeRegistries.ENTITIES, MODID);
     public final EntityType<ClownBoss> CLOWNBOSS_ENTITY_UNREG = EntityType.Builder.of(ClownBoss::new, EntityClassification.MONSTER).sized(1f, 3f).build("ssb:clownboss");
@@ -57,9 +58,11 @@ public class Registration {
     public final RegistryObject<TileEntityType<RainbowGeneratorTile>> RAINBOW_GENERATOR_TILE = TILES.register("rainbowgentile", () -> TileEntityType.Builder.of(RainbowGeneratorTile::new, RAINBOW_GENERATOR_BLOCK.get()).build(null));
     public final RegistryObject<TileEntityType<ExchangerBlockTile>> EXCHANGER_TILE = TILES.register("exchangertile", () -> TileEntityType.Builder.of(ExchangerBlockTile::new, EXCHANGER_BLOCK.get()).build(null));
     public final RegistryObject<TileEntityType<Molecular1Tile>> MOLECULAR_I_TILE = TILES.register("molecularitile", () -> TileEntityType.Builder.of(Molecular1Tile::new, MOLECULAR_I_BLOCK.get()).build(null));
+    public final RegistryObject<TileEntityType<Molecular2Tile>> MOLECULAR_II_TILE = TILES.register("moleculariitile", () -> TileEntityType.Builder.of(Molecular2Tile::new, MOLECULAR_II_BLOCK.get()).build(null));
     public final RegistryObject<TileEntityType<StationaryDiamondOreGeneratorTile>> STATIONARY_DIAMOND_ORE_GENERATOR_TILE = TILES.register("stationarydiamondoregeneratortile", () -> TileEntityType.Builder.of(StationaryDiamondOreGeneratorTile::new, STATIONARY_DIAMOND_ORE_GENERATOR_BLOCK.get()).build(null));
     public final RegistryObject<TileEntityType<DiamondAnvilTile>> DIAMOND_ANVIL_TILE = TILES.register("diamondanviltile", () -> TileEntityType.Builder.of(DiamondAnvilTile::new, DIAMOND_ANVIL_BLOCK.get()).build(null));
     public final RegistryObject<TileEntityType<Custom2GeneratorTile>> CUSTOM2_GENERATOR_TILE = TILES.register("custom2gentile", () -> TileEntityType.Builder.of(Custom2GeneratorTile::new, CUSTOM2_GENERATOR_BLOCK.get()).build(null));
+    public final RegistryObject<TileEntityType<MCITile>> MCI_TILE = TILES.register("mcitile", () -> TileEntityType.Builder.of(MCITile::new, MCI_BLOCK.get()).build(null));
 
     private final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     public final RegistryObject<Item> INFORMATIVEEMPTY_ITEM = ITEMS.register("informativeempty", () -> new BaseItem("item.ssb.informativeempty", "message.ssb.informativeempty", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
@@ -71,13 +74,14 @@ public class Registration {
     public final RegistryObject<Item> CUSTOM_GENERATOR_ITEM = ITEMS.register("customgenitem", () -> new BaseBlockItem("item.ssb.customgen", "message.ssb.customgen", CUSTOM_GENERATOR_BLOCK.get(), new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> RAINBOW_GENERATOR_ITEM = ITEMS.register("rainbowgenitem", () -> new BaseBlockItem("item.ssb.rainbowgen", "message.ssb.rainbowgen", RAINBOW_GENERATOR_BLOCK.get(), new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> MOLECULAR_I_ITEM = ITEMS.register("moleculariitem", () -> new BaseBlockItem("item.ssb.moleculari", "message.ssb.moleculari", MOLECULAR_I_BLOCK.get(), new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
-    public final RegistryObject<Item> MOLECULAR_II_ITEM = ITEMS.register("moleculariiitem", () -> new BaseBlockItem("item.ssb.molecularii", "message.ssb.molecularii", MOLECULAR_II_BLOCK.get(), new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
+    public final RegistryObject<Item> MOLECULAR_II_ITEM = ITEMS.register("moleculariiitem", () -> new BaseBlockItem("item.ssb.molecularii", "message.ssb.molecularii", MOLECULAR_II_BLOCK.get(), new Item.Properties().tab(SuperSkyBlock.CreativeTab))); // TODO: add craft
     public final RegistryObject<Item> MOLECULAR_III_ITEM = ITEMS.register("moleculariiiitem", () -> new BaseBlockItem("item.ssb.moleculariii", "message.ssb.moleculariii", MOLECULAR_III_BLOCK.get(), new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> CLOWNMASK_ITEM = ITEMS.register("clownmask_head", () -> new ClownMask("item.ssb.clownmask", "message.ssb.clownmask", new ClownMaskArmorMaterial(), EquipmentSlotType.HEAD, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> CLOWNSPAWN_ITEM = ITEMS.register("clownspawn", () -> new BossSummonItem("item.ssb.clownspawn", "message.ssb.clownspawn", 1, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> BOSSESSENCE1_ITEM = ITEMS.register("bossessence1", () -> new BaseItem("item.ssb.bossessence1", "message.ssb.bossessence1", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> BOSSESSENCE2_ITEM = ITEMS.register("bossessence2", () -> new BaseItem("item.ssb.bossessence2", "message.ssb.bossessence2", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> BOSSESSENCE3_ITEM = ITEMS.register("bossessence3", () -> new BaseItem("item.ssb.bossessence3", "message.ssb.bossessence3", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
+    public final RegistryObject<Item> BOSSESSENCE4_ITEM = ITEMS.register("bossessence4", () -> new BaseItem("item.ssb.bossessence4", "message.ssb.bossessence4", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> GOLDENCOIN_ITEM = ITEMS.register("goldencoin", () -> new BaseItem("item.ssb.goldencoin", "message.ssb.goldencoin", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> SILVERCOIN_ITEM = ITEMS.register("silvercoin", () -> new BaseItem("item.ssb.silvercoin", "message.ssb.silvercoin", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> CLOWNSIGN_ITEM = ITEMS.register("clownsign", () -> new BaseTool("item.ssb.clownsign", "message.ssb.clownsign", 11f, -3f, ItemTier.DIAMOND, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
@@ -103,6 +107,11 @@ public class Registration {
     public final RegistryObject<Item> DEVILMASK_ITEM = ITEMS.register("devilmask_head", () -> new DevilMask("item.ssb.devilmask", "message.ssb.devilmask", new DevilMaskArmorMaterial(), EquipmentSlotType.HEAD, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> LEXALOXBOSSSPAWN_ITEM = ITEMS.register("lexaloxbossspawn", () -> new BossSummonItem("item.ssb.lexaloxbossspawn", "message.ssb.lexaloxbossspawn", 4, new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
     public final RegistryObject<Item> pobreiochko_ITEM = ITEMS.register("pobreiochko", () -> new BaseItem("побрей очко", "специальный заказ овла", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
+    public final RegistryObject<Item> INFUSIONRING_ITEM = ITEMS.register("infusionring", () -> new BaseItem("item.ssb.infusionring", "message.ssb.infusionring", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
+    public final RegistryObject<Item> CATALYZER_ITEM = ITEMS.register("catalyzer", () -> new BaseItem("item.ssb.catalyzer", "message.ssb.catalyzer", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
+    public final RegistryObject<Item> MAGICSTORAGEI_ITEM = ITEMS.register("magicstoragei", () -> new BaseItem("item.ssb.magicstoragei", "message.ssb.magicstoragei", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
+    public final RegistryObject<Item> BATTERY_ITEM = ITEMS.register("battery", () -> new BaseItem("item.ssb.battery", "message.ssb.battery", new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
+    public final RegistryObject<Item> MCI_ITEM = ITEMS.register("magiccatalyzerinjector", () -> new BaseBlockItem("item.ssb.magiccatalyzerinjectoritem", "message.ssb.magiccatalyzerinjectoritem", MCI_BLOCK.get(), new Item.Properties().tab(SuperSkyBlock.CreativeTab)));
 
     public void init() {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());

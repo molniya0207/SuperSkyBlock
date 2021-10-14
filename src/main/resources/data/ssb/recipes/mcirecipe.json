@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "#A#",
+    "ooo"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "b": {
+      "item": "ssb:battery"
+    },
+    "#": {
+      "item": "ssb:magicstoragei"
+    },
+    "A": {
+      "item": "ssb:infusionring"
+    }
+  },
+  "result": {
+    "item": "ssb:magiccatalyzerinjector",
+    "count": 1
+  }
+}

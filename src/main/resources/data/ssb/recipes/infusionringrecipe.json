@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ssb:magicstoragei"
+    },
+    "A": {
+      "item": "ssb:catalyzer"
+    }
+  },
+  "result": {
+    "item": "ssb:infusionring",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i#",
+    "#A#",
+    "#i#"
+  ],
+  "key": {
+    "#": {
+      "item": "ssb:magicstoragei"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "ssb:catalyzer"
+    }
+  },
+  "result": {
+    "item": "ssb:battery",
+    "count": 4
+  }
+}

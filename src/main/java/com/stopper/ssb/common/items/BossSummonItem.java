@@ -52,6 +52,10 @@ public class BossSummonItem extends BaseItem {
                 ctx.getPlayer().hurt(DamageSource.CACTUS, 2f);
                 SuperSkyBlock.registration.DEVILBOSS_ENTITY_UNREG.spawn((ServerWorld)world, null, null, null, ctx.getClickedPos().above(), SpawnReason.TRIGGERED, true, true);
             }
+            if (this.ID == 4) {
+                ctx.getPlayer().hurt(DamageSource.CACTUS, 20f);
+                SuperSkyBlock.registration.LEXALOXBOSS_ENTITY_UNREG.spawn((ServerWorld)world, null, null, null, ctx.getClickedPos().above(), SpawnReason.TRIGGERED, true, true);
+            }
             ctx.getItemInHand().shrink(1);
             return ActionResultType.CONSUME;
         }

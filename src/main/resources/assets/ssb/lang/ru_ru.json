@@ -17,6 +17,7 @@
   "item.ssb.bossessence1": "Эссенция босса Уровень 1",
   "item.ssb.bossessence2": "Эссенция босса Уровень 2",
   "item.ssb.bossessence3": "Эссенция босса Уровень 3",
+  "item.ssb.bossessence4": "Эссенция босса Уровень 4",
   "item.ssb.goldencoin": "Золотая монетка",
   "item.ssb.silvercoin": "Золотая монетка",
   "item.ssb.hangjaw": "Челюсть Хэнга",
@@ -39,6 +40,8 @@
   "item.ssb.clownmask": "Маска Клоуна",
   "item.ssb.devilspawn": "Демон Дебил",
   "item.ssb.devilmask": "Маска Демона",
+  "item.ssb.lexaloxbossspawn": "Lexa lox, Король",
+  "item.ssb.infusionring": "Кольцо Инфузии",
   "message.ssb.tab": "SuperSkyBlock",
   "message.ssb.informative": "Ваш личный гайд по SSB. Всего 999,99 руб.!",
   "message.ssb.greenstone": "Уровень 1 материал.",
@@ -58,6 +61,7 @@
   "message.ssb.bossessence1": "Падает с Клоуна.",
   "message.ssb.bossessence2": "Падает с Хэнга.",
   "message.ssb.bossessence3": "Падает с Демона.",
+  "message.ssb.bossessence4": "Падает с Босса Лёха Лох.",
   "message.ssb.goldencoin": "= 10 серебрянных монет",
   "message.ssb.silvercoin": "= 1/10 золотых монет",
   "message.ssb.hangjaw": "Для крафта тотема смерти.",
@@ -79,9 +83,12 @@
   "message.ssb.clowntradersummon": "Призывает Клоуна-торговца.",
   "message.ssb.clownmask": "Даёт скорость.",
   "message.ssb.devilspawn": "Он дебил?",
+  "message.ssb.lexaloxbossspawn": "Король всех Лёх (или королева?)",
   "message.ssb.devilmask": "Самая крутая маска.",
+  "message.ssb.infusionring": "Помогает с поносом ой что?",
   "entity.ssb.clownboss": "Клоун",
   "entity.ssb.lexalox": "Lexa lox",
   "entity.ssb.killerhang": "Хэнг",
-  "entity.ssb.clowntrader": "Клоуна-торговцец"
+  "entity.ssb.clowntrader": "Клоуна-торговцец",
+  "entity.ssb.lexaloxboss": "Lexa lox, Король"
 }

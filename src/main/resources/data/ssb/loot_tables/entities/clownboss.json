@@ -11,7 +11,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 24,
+                "min": 36,
                 "max": 64
               }
             }
@@ -61,7 +61,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 1
             }
           ],
           "weight": 1

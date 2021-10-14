@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "ssb:bossessence3",
+          "name": "ssb:bossessence4",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -25,27 +25,11 @@
       "entries": [
         {
           "type": "item",
-          "name": "ssb:devilmask_head",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            }
-          ],
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
           "name": "ssb:goldencoin",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 4
             }
           ],
           "weight": 1

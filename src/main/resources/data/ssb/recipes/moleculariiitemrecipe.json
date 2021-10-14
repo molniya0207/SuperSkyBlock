@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block"
+    },
+    "A": {
+      "item": "ssb:moleculariitem"
+    }
+  },
+  "result": {
+    "item": "ssb:moleculariiitem",
+    "count": 1
+  }
+}
